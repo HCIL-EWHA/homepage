@@ -1,0 +1,96 @@
+.menu_title {
+  text-align: center;
+  background-image: -webkit-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  background-image: -moz-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  background-image: linear-gradient(to right, 0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  -webkit-background-size: 100% .1em;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 10px;
+}
+
+.choice, .dro {
+  font-size: .9em;
+  color: #002C0D;
+}
+
+.choice:hover, .dro:hover {
+  font-size: .9em;
+  color: #002C0D;
+  font-weight: bold;
+}
+
+div.input-group.input-group-search.dropdown#searchBar {
+  margin-left: auto; 
+  width: 50%; 
+  border: solid .02em rgba(64, 128, 83, .3); 
+  border-radius: .25rem;
+}
+
+div.input-group.input-group-search.dropdown#searchBar > div.input-group-prepend > span.input-group-text#searchBarText {
+  background-color: transparent; 
+  background-color: rgba(64, 128, 83, .05); 
+  border: none;
+}
+
+div.input-group.input-group-search.dropdown#searchBar > input.form-control {
+  background-color: rgba(64, 128, 83, .05); 
+  border: none;
+}
+      
+input#myInput {
+  background-color: rgba(64, 128, 83, .08);
+  border: solid .02em rgba(64, 128, 83, .4);
+  outline: none;
+  color: #002C0D;
+  text-align: left;
+  transition: 0.2s;
+}
+
+input#myInput::placeholder {
+  color: rgba(64, 128, 83, .5);
+}
+
+input#myInput:focus {
+  box-shadow: none;
+  color: #408053;
+}
+
+.nav-underline {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-link {
+  padding: .5rem 0.3rem;
+}
+
+.con {
+  padding: 10px 0;
+}
+
+.con > a {
+  font-size: 1.2em;
+}
+
+.con > p {
+  padding: 0;
+  margin: 0;
+}
+
+.con > p.authors {
+  font-size: 1em;
+}
+
+.con > p.info, p.date {
+  font-size: .9em;
+}
+
+ol#myList > li.con > a, ol {
+  color: #002C0D;
+  font-weight: bold;
+}
+
+ol#myList > li.con > p {
+  color: #000000;
+  font-weight: normal;
+}

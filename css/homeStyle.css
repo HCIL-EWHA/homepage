@@ -1,0 +1,47 @@
+.card-deck {
+  padding: 10px 0;
+}
+
+.menu_title {
+  text-align: center;
+  background-image: -webkit-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  background-image: -moz-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  background-image: linear-gradient(to right, 0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  -webkit-background-size: 100% .1em;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 10px;
+}
+
+.col-cus {
+  padding: 10px;
+}
+
+.card-cus {
+  background-color: rgba(0, 44, 13, .06);
+}
+
+div.card-cus > a.btn.btn-primary {
+  background-color: #002C0D;
+  border: solid .1em #002C0D;
+}
+
+div.card-cus > .btn.btn-primary:hover {
+  background-color: #408053;
+  border: solid .1em #408053;
+  box-shadow: none;
+}
+
+div.card-cus > a.btn.btn-primary#none-shadow:hover,
+div.card-cus > a.btn.btn-primary#none-shadow:link {
+  box-shadow: none;
+}
+
+.card-title-cus {
+  font-weight: bold;
+  border-bottom: solid .01em #002C0D;
+}
+
+.lab_info:first-letter{
+  margin-left: 10px;
+}

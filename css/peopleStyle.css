@@ -1,0 +1,69 @@
+section.posi-title {
+  margin-top: 3.5em;
+}
+
+.card {
+  margin: 10px 0;
+}
+
+div.container > div.card-deck > div.card.none-card {
+  border: none; 
+  height: 0px; 
+  padding-top: 0px; 
+  margin-top: 0px; 
+  padding-bottom: 0px; 
+  margin-bottom: 0px;
+}
+
+.card-title {
+  font-weight: bold;
+  border-bottom: solid 0.1em rgb(100, 95, 170, .3);
+  padding: 5px 0;
+}
+
+svg {
+  margin-right: .5em;
+  color: rgba(0, 44, 13, .8);
+}
+
+.positions{
+  text-align: left;
+  border-left: solid 0.1em #FFC417; 
+  padding: 2px 0 2px 10px; 
+  margin: 5px 0;
+  color: #002C0D;
+}
+
+.menu_title {
+  text-align: center;
+  background-image: -webkit-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  background-image: -moz-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  background-image: linear-gradient(to right, 0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
+  -webkit-background-size: 100% .1em;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 10px;
+}
+
+.nav-underline {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.choice {
+  font-size: .9em;
+  color: #002C0D;
+}
+
+.choice:hover {
+  font-size: .9em;
+  color: #002C0D;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: .5rem 0.3rem;
+}
+
+.btn-cus {
+  padding: 20px;
+}
