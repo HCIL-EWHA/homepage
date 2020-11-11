@@ -13,6 +13,16 @@
   padding-bottom: 10px;
 }
 
+a#urlStyle {
+  color: #408053;
+  text-decoration-line: none;
+}
+
+a#urlStyle:hover {
+  color: #002C0D;
+  text-decoration-line: none;
+}
+
 .col-cus {
   padding: 10px;
 }
