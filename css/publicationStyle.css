@@ -94,3 +94,11 @@ ol#myList > li.con > p {
   color: #000000;
   font-weight: normal;
 }
+
+article.artUnderLine {
+  margin-bottom: 1em;
+}
+
+article.artUnderLine > div.container {
+  border-bottom: solid #cfcfcf;
+}

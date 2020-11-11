@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/default.css">
     <link rel="stylesheet" type="text/css" href="../css/publicationStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/topButtonStyle.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="../js/filter.js"></script>
     <script type="text/javascript" src="../js/dropFilter.js"></script>
   </head>
   <body>
+    <svg onclick="topFunction()" title="Go to top" id="topBtn" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="#408053" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+    </svg>    
+
 	 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a href="../index.html">
@@ -36,6 +41,9 @@
           <li class="nav-item">
             <a class="nav-link" id="menu-link" href="./publish.html">Publications</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" id="menu-link" href="./news.html">News</a>
+            </li>
           <li class="nav-item">
             <a class="nav-link" id="menu-link" href="./contact.html">Contact</a>
           </li>
@@ -85,20 +93,15 @@
     </section>
 
     <section>
-      <article>
+      <article class="artUnderLine">
         <div class="container">
           <ol id="myList">
+            <h4><b>Journal Articles</b></h4>
             <li class="con 2020">
               <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/col.22567">Tactile colour pictogram to improve artwork appreciation of people with visual impairments</a>
               <p class="authors">Jun Dong Cho, Luis Cavazos Quero, Jorge Iranzo Bartolomé, Do Won Lee, <b>Uran Oh</b>, Inae Lee</p>
               <p class="info">Color Research & Application, 2020.</p>
               <p class="date">2020/9/11</p>
-            </li>
-            <li class="con 2020">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3313831.3376143">ReCog: Supporting Blind People in Recognizing Personal Objects</a>
-              <p class="authors">Dragan Ahmetovic, Daisuke Sato, <b>Uran Oh</b>, Tatsuya Ishihara, Kris Kitani, Chieko Asakawa</p>
-              <p class="info">Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, pp 1-12</p>
-              <p class="date">2020/4/21</p>
             </li>
             <li class="con 2019">
               <a href="https://dl.acm.org/doi/pdf/10.1145/3349264">Deep Learning Compensation of Rotation Errors During Navigation Assistance for People with Visual Impairments or Blindness</a>
@@ -107,46 +110,90 @@
               <p class="date">2019/12/16</p>
             </li>
             <li class="con 2019">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3308561.3354620">Supporting object-level exploration of artworks by touch for people with visual impairments</a>
-              <p class="authors"><b>Nahyun Kwon</b>, Youngji Koh, <b>Uran Oh</b></p>
-              <p class="info">The 21st International ACM SIGACCESS Conference on Computers and Accessibility, pp 600-602</p>
-              <p class="date">2019/10/24</p>
-            </li>
-            <li class="con 2019">
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8951991">Exploring the Design Space of an Augmented Display for Conveying Facial Expressions for People with Autism</a>
-              <p class="authors"><b>SeungA Chung</b>, <b>Uran Oh</b></p>
-              <p class="info">2019 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), pp 435-437</p>
-              <p class="date">2019/10/10</p>
-            </li>
-            <li class="con 2019">
               <a href="https://dl.acm.org/doi/pdf/10.1145/3340319">NavCog3 in the wild: Large-scale blind indoor navigation assistant with semantic features</a>
               <p class="authors">Daisuke Sato, <b>Uran Oh</b>, João Guerreiro, Dragan Ahmetovic, Kakuya Naito, Hironobu Takagi, Kris M Kitani, Chieko Asakawa</p>
               <p class="info">ACM Transactions on Accessible Computing (TACCESS), Volume 12 ,Issue 3 , pp 1-30</p>
               <p class="date">2019/8/31</p>
-            </li>
-            <li class="con 2019">
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8843485">EmoWei: Emotion-Oriented Personalized Weight Management System Based on Sentiment Analysis</a>
-              <p class="authors">Jihyeon Kim, <b>Uran Oh</b></p>
-              <p class="info">2019 IEEE 20th International Conference on Information Reuse and Integration for Data Science (IRI), pp 342-349</p>
-              <p class="date">2019/7/30</p>
-            </li>
-            <li class="con 2018">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3234695.3236363">Turn right: Analysis of rotation errors in turn-by-turn navigation for individuals with visual impairments</a>
-              <p class="authors">Dragan Ahmetovic, <b>Uran Oh</b>, Sergio Mascetti, Chieko Asakawa</p>
-              <p class="info">Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility, pp 333-339</p>
-              <p class="date">2018/10/8</p>
-            </li>
-            <li class="con 2018">
-              <a href="https://patentimages.storage.googleapis.com/06/9e/c1/b2ea351447418f/US10048837.pdf">Target selection on a small form factor display</a>
-              <p class="authors">Hao Lu, <b>Uran Oh</b>, Yang Li</p>
-              <p class="info">US Patent 10048837</p>
-              <p class="date">2018/8/14</p>
             </li>
             <li class="con 2018">
               <a href="https://dl.acm.org/doi/pdf/10.1145/3161416">TouchCam: Realtime Recognition of Location-Specific On-Body Gestures to Support Users with Visual Impairments</a>
               <p class="authors">Lee Stearns, <b>Uran Oh</b>, Leah Findlater, Jon E Froehlich</p>
               <p class="info">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Volume 1, Issue 4, pp 1-23</p>
               <p class="date">2018/1/8</p>
+            </li>
+            <li class="con 2016">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/2914793">Evaluating haptic and auditory directional guidance to assist blind people in reading printed text using finger-mounted cameras</a>
+              <p class="authors">Lee Stearns, Ruofei Du, <b>Uran Oh</b>, Catherine Jou, Leah Findlater, David A Ross, Jon E Froehlich</p>
+              <p class="info">ACM Transactions on Accessible Computing (TACCESS) , Volume 9 , Issue 1 , pp 1-38</p>
+              <p class="date">2016/10/21</p>
+            </li>
+            <li class="con 2015">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/2820616">A performance comparison of on-hand versus on-phone nonvisual input by blind and sighted users</a>
+              <p class="authors"><b>Uran Oh</b>, Leah Findlater</p>
+              <p class="info">ACM Transactions on Accessible Computing (TACCESS), Volume 7, Issue 4, pp 1-20</p>
+              <p class="date">2015/11/19</p>
+            </li>
+            <li class="con 2015">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/2764917">Audio-based feedback techniques for teaching touchscreen gestures</a>
+              <p class="authors"><b>Uran Oh</b>, Stacy Branham, Leah Findlater, Shaun K Kane</p>
+              <p class="info">ACM Transactions on Accessible Computing (TACCESS), Volume 7, Issue 3, pp 1-29</p>
+              <p class="date">2015/11/14</p>
+            </li>
+            <li class="con 2011">
+              <a href="https://dspace.ewha.ac.kr/handle/2015.oak/229631">Privacy-preserving protocols for finding the similarity between two DNA sequences with a Blind Third Party</a>
+              <p class="authors">Joyce J. Whang, <b>Uran Oh</b>, Aeyoung Kim and Sang-Ho Lee</p>
+              <p class="info">Journal of Convergence Information Technology, Volume 6, Issue 10, Pages 33</p>
+              <p class="date">2011</p>
+            </li>
+            <li class="con 2010">
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5505959">Channel reordering and prefetching schemes for efficient IPTV channel navigation</a>
+              <p class="authors"><b>Uran Oh</b>, Soojung Lim, Hyokyung Bahn</p>
+              <p class="info">IEEE Transactions on Consumer Electronics, Volume 56, Issue 2, pp 483-487</p>
+              <p class="date">2010/7/15</p>
+            </li>
+            <li class="con 2009">
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5373754">Popular channel concentration schemes for efficient channel navigation in internet protocol televisions</a>
+              <p class="authors">Eunji Lee, Jiyoung Whang,<b>Uran Oh</b>, Kern Koh, Hyokyung Bahn</p>
+              <p class="info">IEEE Transactions on Consumer Electronics , Volume 55, Issue 4 , pp 1945-1949</p>
+              <p class="date">2009/11</p>
+            </li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="artUnderLine">
+        <div class="container">
+          <ol id="myList">
+            <h4><b>Conference Papers</b></h4>
+            <li class="con 2019">
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8843485">EmoWei: Emotion-Oriented Personalized Weight Management System Based on Sentiment Analysis</a>
+              <p class="authors">Jihyeon Kim and <b>Uran Oh</b></p>
+              <p class="info">2019 IEEE 20th International Conference on Information Reuse and Integration for Data Science (IRI), pp 342-349</p>
+              <p class="date">2019/7/30</p>
+            </li>
+            <li class="con 2020">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3313831.3376143">ReCog: Supporting Blind People in Recognizing Personal Objects</a>
+              <p class="authors">Dragan Ahmetovic, Daisuke Sato, <b>Uran Oh</b>, Tatsuya Ishihara, Kris Kitani, Chieko Asakawa</p>
+              <p class="info">Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, pp 1-12</p>
+              <p class="date">2020/4/21</p>
+            </li>
+            <li class="con 2019">
+              <a>A Study on the Emotion Analysis of Online Journals of People on Diet.</a>
+              <p class="authors">Jihyeon Kim and <b>Uran Oh</b></p>
+              <p class="info">Proceedings of HCI Korea 2019. 173-177</p>
+              <p class="date">2019</p>
+            </li>
+            <li class="con 2019">
+              <a>Dodbouigi: Mobile Applications to Enhance the Online Shopping Experience for the Visually Impaired.</a>
+              <p class="authors">Hyunah Oh, Jiye Choo, Yebin Yun, Jiwon Jeong, <b>Uran Oh</b></p>
+              <p class="info">Proceedings of HCI Korea 2019. 197-200. <b style="color: red;">Best paper Award</b></p>
+              <p class="date">2019</p>
+            </li>
+            <li class="con 2018">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3234695.3236363">Turn right: Analysis of rotation errors in turn-by-turn navigation for individuals with visual impairments</a>
+              <p class="authors">Dragan Ahmetovic, <b>Uran Oh</b>, Sergio Mascetti, Chieko Asakawa</p>
+              <p class="info">Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility, pp 333-339</p>
+              <p class="date">2018/10/8</p>
             </li>
             <li class="con 2017">
               <a href="https://dl.acm.org/doi/pdf/10.1145/3132525.3132535">NavCog3: An Evaluation of a Smartphone-Based Blind Indoor Navigation Assistant with Semantic Features in a Large-Scale Environment</a>
@@ -166,30 +213,6 @@
               <p class="info">2016 23rd International Conference on Pattern Recognition (ICPR), pp 1003-1010</p>
               <p class="date">2016/12/4</p>
             </li>
-            <li class="con 2016">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/2914793">Evaluating haptic and auditory directional guidance to assist blind people in reading printed text using finger-mounted cameras</a>
-              <p class="authors">Lee Stearns, Ruofei Du, <b>Uran Oh</b>, Catherine Jou, Leah Findlater, David A Ross, Jon E Froehlich</p>
-              <p class="info">ACM Transactions on Accessible Computing (TACCESS) , Volume 9 , Issue 1 , pp 1-38</p>
-              <p class="date">2016/10/21</p>
-            </li>
-            <li class="con 2015">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/2820616">A performance comparison of on-hand versus on-phone nonvisual input by blind and sighted users</a>
-              <p class="authors"><b>Uran Oh</b>, Leah Findlater</p>
-              <p class="info">ACM Transactions on Accessible Computing (TACCESS), Volume 7, Issue 4, pp 1-20</p>
-              <p class="date">2015/11/19</p>
-            </li>
-            <li class="con 2015">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/2764917">Audio-based feedback techniques for teaching touchscreen gestures</a>
-              <p class="authors">Uran Oh</b>, Stacy Branham, Leah Findlater, Shaun K Kane</p>
-              <p class="info">ACM Transactions on Accessible Computing (TACCESS), Volume 7, Issue 3, pp 1-29</p>
-              <p class="date">2015/11/14</p>
-            </li>
-            <li class="con 2015">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/2700648.2811381">Supporting everyday activities for persons with visual impairments through computer vision-augmented touch</a>
-              <p class="authors">Leah Findlater, Lee Stearns, Ruofei Du, <b>Uran Oh</b>, David Ross, Rama Chellappa, Jon Froehlich</p>
-              <p class="info">Proceedings of the 17th International ACM SIGACCESS Conference on Computers & Accessibility, pp 383-384</p>
-              <p class="date">2015/10/26</p>
-            </li>
             <li class="con 2014">
               <a href="https://dl.acm.org/doi/pdf/10.1145/2661334.2661376">Design of and subjective response to on-body input for people with visual impairments</a>
               <p class="authors"><b>Uran Oh</b>, Leah Findlater</p>
@@ -197,21 +220,15 @@
               <p class="date">2014/10/20</p>
             </li>
             <li class="con 2014">
-              <a href="https://scholar.google.com/scholar?cluster=14924064851682045953&hl=en&oi=scholarr">Proceedings of ASSETS 2014, 8 pages. HCIL-2014-31</a>
-              <p class="authors"><b>U Oh</b>, L Findlater</p>
-              <p class="info">Proceedings of ASSETS</p>
-              <p class="date">2014/10</p>
+              <a>The Design and Preliminary Evaluation of a finger-Mounted Camera and Feedback System to Enable Reading of Printed Text for the Blind.</a>
+              <p class="authors">Stearns, Lee, Ruofei Du, <b>Uran Oh</b>, Yumeng Wang, Leah Findlater, Rama Chellappa, and Jon E. Froehlich</p>
+              <p class="info">Proceeding of Assistive Computer Vision and Robotics 2014</p>
+              <p class="date">2014</p>
             </li>
             <li class="con 2014">
-              <a href="https://link.springer.com/content/pdf/10.1007/978-3-319-16199-0_43.pdf">The design and preliminary evaluation of a finger-mounted camera and feedback system to enable reading of printed text for the blind</a>
-              <p class="authors">Lee Stearns, Ruofei Du, <b>Uran Oh</b>, Yumeng Wang, Leah Findlater, Rama Chellappa, Jon E Froehlich</p>
-              <p class="info">European Conference on Computer Vision , pp 615-631</p>
-              <p class="date">2014/9/6</p>
-            </li>
-            <li class="con 2014"> <!-- id="cons" -->
               <a href="https://www.researchgate.net/profile/Meethu_Malu/publication/266655434_Current_and_future_mobile_and_wearable_device_use_by_people_with_visual_impairments/links/56f6f53c08ae38d710a1c0ac/Current-and-future-mobile-and-wearable-device-use-by-people-with-visual-impairments.pdf">
                 Current and future mobile and wearable device use by people with visual impairments</a>
-              <p class="authors">Dragan Ahmetovic, Daisuke Sato, <b>Uran Oh</b>, Tatsuya Ishihara, Kris Kitani, Chieko Asakawa</p>
+              <p class="authors">Hanlu Ye, Meethu Malu, <b>Uran Oh</b> and Leah Findlater</p>
               <p class="info">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems , pp 3123-3132</p>
               <p class="date">2014/4/26</p>
             </li>
@@ -224,8 +241,72 @@
             <li class="con 2013">
               <a href="https://dl.acm.org/doi/pdf/10.1145/2470654.2466145">The challenges and potential of end-user gesture customization</a>
               <p class="authors"><b>Uran Oh</b>, Leah Findlater</p>
-              <p class="info">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems , pp 1129-1138</p>
+              <p class="info">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), pp 1129-1138</p>
               <p class="date">2013/4/27</p>
+            </li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="artUnderLine">
+        <div class="container">
+          <ol id="myList">
+            <h4><b>Workshop Paper</b></h4>
+            <li class="con 2019">
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8951991">Exploring the Design Space of an Augmented Display for Conveying Facial Expressions for People with Autism</a>
+              <p class="authors"><b>SeungA Chung</b>, <b>Uran Oh</b></p>
+              <p class="info">2019 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), pp 435-437</p>
+              <p class="date">2019/10/10</p>
+            </li>
+            <li class="con 2014">
+              <a href="https://link.springer.com/content/pdf/10.1007/978-3-319-16199-0_43.pdf">The design and preliminary evaluation of a finger-mounted camera and feedback system to enable reading of printed text for the blind</a>
+              <p class="authors">Lee Stearns, Ruofei Du, <b>Uran Oh</b>, Yumeng Wang, Leah Findlater, Rama Chellappa, Jon E Froehlich</p>
+              <p class="info">Proceedings of European Conference on Computer Vision Workshop on Assistive Computer Vision and Robotics (ECCV/ACVR), pp 615-631</p>
+              <p class="date">2014/9/6</p>
+            </li>
+          </ol>
+        </div>
+      </article>
+
+      <article>
+        <div class="container">
+          <ol id="myList">
+            <h4><b>Posters</b></h4>
+            <li class="con 2019">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3308561.3354620">Supporting object-level exploration of artworks by touch for people with visual impairments</a>
+              <p class="authors"><b>Nahyun Kwon</b>, Youngji Koh, <b>Uran Oh</b></p>
+              <p class="info">The 21st International ACM SIGACCESS Conference on Computers and Accessibility, pp 600-602</p>
+              <p class="date">2019/10/24</p>
+            </li>
+            <li class="con 2019">
+              <a>YOLO-based Walking Assistance Application for Blind People.</a>
+              <p class="authors">Jiwon Yoo, DongHee Han, Chayoung Hur, <b>Uran Oh</b></p>
+              <p class="info">Korea Computer Congress 2019. <b style="color: red;">Participation Award for Student Paper Competition</b></p>
+              <p class="date">2019</p>
+            </li>
+            <li class="con 2019">
+              <a>Analysis of Conflicts in Romantic Relationships on Mobile Messengers.</a>
+              <p class="authors">Youngji Koh, Hyunggu Jung, <b>Uran Oh</b></p>
+              <p class="info">Proceedings of HCI Korea 2019. 923-927</p>
+              <p class="date">2019</p>
+            </li>
+            <li class="con 2019">
+              <a>Selfer: Selfie Guidance Mobile Application for the Blind.</a>
+              <p class="authors">Yunjung Lee, Hajung Kim, Hyeji Jang, Yujin Han, <b>Uran Oh</b></p>
+              <p class="info">Proceedings of HCI Korea 2019. 971-975</p>
+              <p class="date">2019</p>
+            </li>
+            <li class="con 2019">
+              <a>A Study on Fabricating Smartphone-based Musical Instruments with DIY.</a>
+              <p class="authors">Naeun Go and <b>Uran Oh</b></p>
+              <p class="info">Proceedings of HCI Korea 2019. 938-942</p>
+              <p class="date">2019</p>
+            </li>
+            <li class="con 2015">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/2700648.2811381">Supporting everyday activities for persons with visual impairments through computer vision-augmented touch</a>
+              <p class="authors">Leah Findlater, Lee Stearns, Ruofei Du, <b>Uran Oh</b>, David Ross, Rama Chellappa, Jon Froehlich</p>
+              <p class="info">Proceedings of the 17th International ACM SIGACCESS Conference on Computers & Accessibility, pp 383-384</p>
+              <p class="date">2015/10/26</p>
             </li>
             <li class="con 2012">
               <a href="https://87a42734-a-62cb3a1a-s-sites.googlegroups.com/site/preetibhargavawebsite/publications/ICDLFutureVision.pdf?attachauth=ANoY7cr6XaWFyu1D0j_8ixOUkaXwB15qCSnOSg5tZr13devsPYSXCQWcXuK0QUJfdyKHaner9cw7kcI2nYxutqTvXLj4ezsqLXWMWVQfHn5BXcSR1qPiSGJvXCF6wMe4zULPzSz8zORedoA3fJRWyMA1Xy-zYdISXgoBbz9Gt1wz_bwKxlvYX4v8x0IVtvd9AyX0SkCcbfoRfGhY_Ao21_Uy71JJg8rqp9yvdgdMEEwTkNiNtz72aKtvnDI3fgSHwyIx4uAqdeZd&attredirects=0"> The robot baby and massive metacognition: Future vision</a>
@@ -239,28 +320,6 @@
               <p class="info">2012 IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL), pp 1-2</p>
               <p class="date">2012/11/7</p>
             </li>
-            <li class="con 2011">
-              <a href="https://dspace.ewha.ac.kr/handle/2015.oak/229631">Privacy-preserving protocols for finding the similarity between two DNA sequences with a Blind Third Party</a>
-              <p class="authors">JJ Whang, <b>U Oh</b>, A Kim, S-H Lee</p>
-              <p class="info">Journal of Convergence Information Technology, Volume 6, Issue 10, Pages 33</p>
-              <p class="date">2011</p>
-            </li>
-            <li class="con 2010">
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5505959">Channel reordering and prefetching schemes for efficient IPTV channel navigation</a>
-              <p class="authors"><b>Uran Oh</b>, Soojung Lim, Hyokyung Bahn</p>
-              <p class="info">IEEE Transactions on Consumer Electronics, Volume 56, Issue 2, pp 483-487</p>
-              <p class="date">2010/7/15</p>
-            </li>
-            <li class="con 2009">
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5373754">Popular channel concentration schemes for efficient channel navigation in internet protocol televisions</a>
-              <p class="authors">Eunji Lee, Jiyoung Whang,<b>Uran Oh</b>, Kern Koh, Hyokyung Bahn</p>
-              <p class="info">IEEE Transactions on Consumer Electronics , Volume 55, Issue 4 , pp 1945-1949</p>
-              <p class="date">2009/11</p>
-            </li>
-            <li class="con none">
-              <a href="https://www.researchgate.net/profile/Uran_Oh/publication/266297707_NewsTrust_Xplorer_Content-based_Rating_Visualization_for_Exploring_News_Reviews_and_Reviewers/links/55250f110cf2caf11bfcfdda/NewsTrust-Xplorer-Content-based-Rating-Visualization-for-Exploring-News-Reviews-and-Reviewers.pdf">NewsTrust Xplorer: Content-based Rating Visualization for Exploring News Reviews and Reviewers</a>
-              <p class="authors">Hyunjong Cho, Chanhyun Kang, <b>Uran Oh</b>, Nishant S Patel</p>
-            </li>
           </ol>
         </div>
       </article>
@@ -269,5 +328,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"> </script> 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"> </script>
+    <script src="../js/topButton.js"></script>
   </body>
 </html>

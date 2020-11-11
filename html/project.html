@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/default.css">
     <link rel="stylesheet" type="text/css" href="../css/projectStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/topButtonStyle.css">
   </head>
   <body>
+    <svg onclick="topFunction()" title="Go to top" id="topBtn" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="#408053" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+    </svg> 
+
   	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a href="../index.html"><img src="../img/menu/homepageLogo_fin2.png" class="navbar-brand"></a>
@@ -31,6 +36,9 @@
               <a class="nav-link" id="menu-link" href="./publish.html">Publications</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" id="menu-link" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" id="menu-link" href="./contact.html">Contact</a>
             </li>
           </ul>
@@ -46,7 +54,7 @@
 
     <section>
       <article>
-        <div class="container">
+        <div class="container" id="proj_PERSON">
           <div class="row">
             <div class="col-sm-3">
               <img src="../img/project/Personal Object Recognizer.jpg" class="card-img" alt="...">
@@ -64,7 +72,7 @@
         </div>
       </article>
       <article>
-        <div class="container">
+        <div class="container" id="proj_IMPROV">
           <div class="row">
             <div class="col-sm-3">
               <img src="../img/project/IMPROVING SELFIE EXPERIENCES FOR BLIND PEOPLE.jpg" class="card-img" alt="...">
@@ -72,7 +80,7 @@
             <div class="col-sm-9">
               <h4 class="project_title">IMPROVING SELFIE EXPERIENCES FOR BLIND PEOPLE</h4>
               <h5 class="sub_title">The Motivation</h5>
-              <p class="card-text">Selfies have been a major social trend for many years. However, it can be challenging for people with visual impairments to take part in this activity although their use of social media is as high as sighted people. Thus, we designed and developed a mobile application for helping people with visual impairments with taking and managing selfies</p>
+              <p class="card-text">Selfies have been a major social trend for many years. However, it can be challenging for people with visual impairments to take part in this activity although their use of social media is as high as sighted people. Thus, we designed and developed a mobile application for helping people with visual impairments with taking and managing selfies.</p>
               <h5 class="sub_title">Related Publication(s)</h5>
               <p class="card-text">Yunjung Lee, hajung Kim, Hyeji Jang, Yujin Han, Uran Oh. (2019) Selfer: Selfie Guidance Mobile Application for the Blind. Proceedings of HCI Korea 2019. 971-975</p>
             </div>
@@ -80,7 +88,7 @@
         </div>
       </article>
       <article>
-        <div class="container">
+        <div class="container" id="proj_YOLO">
           <div class="row">
             <div class="col-sm-3">
               <img src="../img/project/YOLO-BASED WALKING ASSISTANCE FOR BLIND PEOPLE.jpg" alt="..." class="card-img">
@@ -96,7 +104,7 @@
         </div>
       </article>
       <article>
-        <div class="container">
+        <div class="container" id="proj_NAVCOG">
           <div class="row">
             <div class="col-sm-3">
               <img src="../img/project/NAVCOG_INDOOR NAVIGATION ASSISTANCE FOR PEOPLE WITH VISUAL IMPAIRMENTS.png" class="card-img">
@@ -293,5 +301,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"> </script> 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"> </script>
+    <script src="../js/topButton.js"></script>
   </body>
 </html>
