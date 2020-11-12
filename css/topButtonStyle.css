@@ -5,6 +5,7 @@
   right: 30px;
   z-index: 99;
   border: none;
+  border-radius: 50%;
   outline: none;
   background-color: #fff;
   cursor: pointer;
