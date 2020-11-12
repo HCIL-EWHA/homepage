@@ -5,8 +5,8 @@
   right: 30px;
   z-index: 99;
   border: none;
-  border-radius: 50%;
   outline: none;
+  border-radius: 50%;
   background-color: #fff;
   cursor: pointer;
 }
