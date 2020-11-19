@@ -23,14 +23,3 @@ article {
 .sub_title {
   color: #295938;
 }
-
-.menu_title {
-  text-align: center;
-  background-image: -webkit-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
-  background-image: -moz-linear-gradient(0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
-  background-image: linear-gradient(to right, 0deg, rgb(0,0,0,0), rgb(255,196,23,100), rgb(0,0,0,0));
-  -webkit-background-size: 100% .1em;
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  padding-bottom: 10px;
-}
