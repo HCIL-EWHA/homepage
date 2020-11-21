@@ -2,24 +2,11 @@ article {
   margin: 3em 0;
 }
 
-.card-img {
-  margin-bottom: 15px;
-}
-
 .project_title {
   color: #002C0D;
   font-weight: bold;
 }
 
-.pdf_link {
-  color: #CC0245;
-}
-
-.pdf_link:hover{
-  color: #295938;
-  text-decoration: none;
-}
-
-.sub_title {
-  color: #295938;
+section > article > div#news_list > div.card {
+  margin: .5em;
 }

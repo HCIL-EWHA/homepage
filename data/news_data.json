@@ -1,0 +1,29 @@
+var news = [
+   	// {
+    //     "title" : "TITLE1",
+    //     "contents" : "contents",
+    //     "image" : null,
+    //     "date" : "2020/11/19"
+    // },
+    // {
+    // 	"title" : "TITLE2",
+    //     "contents" : "contents",
+    //     "date" : "2020/11/20"
+    // },
+    // {
+    //     "title" : "TITLE3",
+    //     "contents" : "contents",
+    //     "image" : null,
+    //     "date" : "2020/11/21"
+    // },
+    // {
+    //     "title" : "TITLE4",
+    //     "contents" : "contents",
+    //     "date" : "2020/11/22"
+    // },
+    // {
+    //     "title" : "TITLE5",
+    //     "contents" : "contents",
+    //     "date" : "2020/11/23"
+    // }
+]
