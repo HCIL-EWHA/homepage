@@ -2,18 +2,16 @@ var news = [
    	// {
     //     "title" : "TITLE1",
     //     "contents" : "contents",
-    //     "image" : null,
     //     "date" : "2020/11/19"
     // },
     // {
-    // 	"title" : "TITLE2",
+    // 	   "title" : "TITLE2",
     //     "contents" : "contents",
     //     "date" : "2020/11/20"
     // },
     // {
     //     "title" : "TITLE3",
     //     "contents" : "contents",
-    //     "image" : null,
     //     "date" : "2020/11/21"
     // },
     // {
