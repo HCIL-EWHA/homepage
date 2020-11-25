@@ -24,6 +24,7 @@ div.container > div.card-deck > div.card.none-card {
 svg {
   margin-right: .5em;
   color: rgba(0, 44, 13, .8);
+  fill: rgba(0, 44, 13, .8);
 }
 
 .positions{
