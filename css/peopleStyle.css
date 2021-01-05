@@ -6,6 +6,10 @@ section.posi-title {
   margin: 10px 0;
 }
 
+div.container > div.card-deck {
+  margin-bottom: 20px;
+}
+
 div.container > div.card-deck > div.card.none-card {
   border: none; 
   height: 0px; 

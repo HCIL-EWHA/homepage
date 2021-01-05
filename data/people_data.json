@@ -1,0 +1,234 @@
+var prof = [
+	{
+		"pic" : "../img/member/prof/Prof_Uran.jpg",
+		"name" : "오유란(Uran Oh)",
+		"position" : "Assistant Professor",
+		"interest" : "improving information access by redesigning state-of-art technologies",
+		"mail" : "uran.oh@ewha.ac.kr",
+		"homepage" : "http://www.uranoh.com/",
+		"git" : null,
+		"linkdIn" : null
+	}
+]
+
+var msStu = [
+	{
+		"pic" : "../img/member/ms/YunJung.jpg",
+		"name" : "이연정(YunJung Lee)",
+		"position" : "MS Student",
+		"interest" : "HCI, Accessibility, SelfieHelper",
+		"mail" : "yunjung.lee.dev@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/YunjungLeeHappy",
+		"linkdIn" : "https://www.linkedin.com/in/%EC%97%B0%EC%A0%95-%EC%9D%B4-777500138/"
+	},
+	{
+		"pic" : "../img/member/ms/SeungA.jpg",
+		"name" : "정승아(SeungA Chung)",
+		"position" : "MS Student",
+		"interest" : "HCI, XR, Empathic Computing, Accessibility, AI",
+		"mail" : "ewhacsa@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/seuch98",
+		"linkdIn" : "http://linkedin.com/in/seunga-chung-0386a51bb"
+	},
+	{
+		"pic" : "../img/member/ms/Hwayeon.jpeg",
+		"name" : "조화연(Hwayeon Joh)",
+		"position" : "MS Student",
+		"interest" : "HCI, Digital therapy, Mental health, Psychotherapy, EEG(Electroencephalogram)",
+		"mail" : "e.johhy@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/HY-Joe",
+		"linkdIn" : "https://www.linkedin.com/in/hwayeon-joh-5926a5200/"
+	},
+	{
+		"pic" : "../img/member/ms/Sohyeon.jpg",
+		"name" : "박소현(Sohyeon Park)",
+		"position" : null,
+		"interest" : "Explainable AI, machine learning",
+		"mail" : "sohyeon911@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/codecodechanel",
+		"linkdIn" : null
+	}
+]
+
+var underStu = [
+	{
+		"pic" : "../img/member/under/Soobin.jpeg",
+		"name" : "박수빈(Soobin Park)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, VR/AR, social computing, computer graphics",
+		"mail" : "park_sb@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Kyungyeon.jpg",
+		"name" : "이경연(Kyungyeon Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Explainbel ML, End User Programming",
+		"mail" : "ruddus716@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Suhyeon.jpg",
+		"name" : "류수현(Suhyeon Yoo)",
+		"position" : "Undergraduate Intern",
+		"interest" : "Mobile Health(Wearables/ Fabrication), Applied Computer Vision, AR, Accessibility",
+		"mail" : "ysh9473@ewhain.net",
+		"homepage" : "https://chatherina423.blogspot.com/",
+		"git" : "https://github.com/Chatherina423",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Hyeonjeong.jpg",
+		"name" : "변현정(Hyeonjeong Byeon)",
+		"position" : "Undergraduate Intern",
+		"interest" : "머신러닝, NLP, Sentiment Analysis",
+		"mail" : "cat@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/hyeonJeongByeon",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Leeje.jpg",
+		"name" : "장이제(Leeje Jang)",
+		"position" : "Undergraduate Intern",
+		"interest" : "AI , eye-tracking, 뇌파인식, big data",
+		"mail" : "yds04312@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Soohyun.jpg",
+		"name" : "여수현(Soohyun Yeo)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Fintech",
+		"mail" : "yeo7764@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Seungwon.jpg",
+		"name" : "최승원(Seungwon Choi)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Machine learning, Web Development",
+		"mail" : "dandelionsw2@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/seungwon2",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Kyulee.jpg",
+		"name" : "김규리(Kyulee Kim)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, 교육",
+		"mail" : "klk1193@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Minju.jpg",
+		"name" : "김민주(Kim Minju)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, DeepLearning, AI, VR/AR, BigData",
+		"mail" : "fantasi2000@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Soyeon.jpg",
+		"name" : "윤소연(Yoon Soyeon)",
+		"position" : "Undergraduate Intern",
+		"interest" : "wearable device, IOT device development, biosensor, Natural User Interface",
+		"mail" : "soyeoncom@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Chaerin.jpg",
+		"name" : "이채린(Chaerin Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Computer Vision, Accessibility",
+		"mail" : "dars997@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Minjae.jpg",
+		"name" : "조민재(Minjae Joe)",
+		"position" : "Undergraduate Intern",
+		"interest" : "AR, VR, 머신러닝",
+		"mail" : "rycbar1999@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	}	
+]
+
+var alumni = [
+	{
+		"pic" : "../img/member/alumni/Nahyun.jpg",
+		"name" : "권나현(Nahyun Kwon)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Accessibility, Computer Vision",
+		"mail" : "skgus2624@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/KwonNH",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Minae.jpg",
+		"name" : "김민애(Minae Kim)",
+		"position" : "Undergraduate Intern",
+		"interest" : "접근성, VR, AR",
+		"mail" : "kimminae3654@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Yujin.jpg",
+		"name" : "김유진(Yujin Kim)",
+		"position" : "Undergraduate Intern",
+		"interest" : "Intelligent user interface, voice user interface, Personal user interface, Conversational user interface",
+		"mail" : "komgi0715@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/Yusastar",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Yoonjae.jpg",
+		"name" : "최윤재(Yoonjae Choi)",
+		"position" : "Undergraduate Intern",
+		"interest" : "VR/AR",
+		"mail" : "yunyun3599@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	}
+]
+
+/*
+	{
+		"pic" : null,
+		"name" : null,
+		"position" : null,
+		"interest" : null,
+		"mail" : null,
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	}
+*/
