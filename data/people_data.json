@@ -42,10 +42,20 @@ var msStu = [
 		"git" : "https://github.com/HY-Joe",
 		"linkdIn" : "https://www.linkedin.com/in/hwayeon-joh-5926a5200/"
 	},
+    {
+        "pic" : "../img/member/ms/Kyulee.jpg",
+        "name" : "김규리(Kyulee Kim)",
+        "position" : "MS Student",
+        "interest" : "HCI, 교육",
+        "mail" : "klk1193@ewhain.net",
+        "homepage" : null,
+        "git" : null,
+        "linkdIn" : null
+    },
 	{
 		"pic" : "../img/member/ms/Sohyeon.jpg",
 		"name" : "박소현(Sohyeon Park)",
-		"position" : null,
+		"position" : "MS Student",
 		"interest" : "Explainable AI, machine learning",
 		"mail" : "sohyeon911@gmail.com",
 		"homepage" : null,
@@ -123,16 +133,6 @@ var underStu = [
 		"mail" : "dandelionsw2@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/seungwon2",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Kyulee.jpg",
-		"name" : "김규리(Kyulee Kim)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, 교육",
-		"mail" : "klk1193@ewhain.net",
-		"homepage" : null,
-		"git" : null,
 		"linkdIn" : null
 	},
 	{
