@@ -69,11 +69,11 @@ var underStu = [
 		"pic" : "../img/member/under/Kyungyeon.jpg",
 		"name" : "이경연(Kyungyeon Lee)",
 		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Explainbel ML, End User Programming",
+		"interest" : "Human-Computer Interaction, Human-Centered Computing, Accessibility, Extended Reality",
 		"mail" : "ruddus716@ewhain.net",
-		"homepage" : null,
+		"homepage" : "https://kyungyeon-lee.github.io/",
 		"git" : null,
-		"linkdIn" : null
+		"linkdIn" : "https://www.linkedin.com/in/kyungyeon-l-7ba831118/"
 	},
 	{
 		"pic" : "../img/member/under/Suhyeon.jpg",
