@@ -156,6 +156,16 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
+		"pic" : "../img/member/under/Yoolri.jpg",
+		"name" : "이율리(Yoolri Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "DeepLearning, Accessibility",
+		"mail" : "lucca6042@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
 		"pic" : "../img/member/under/Chaerin.jpg",
 		"name" : "이채린(Chaerin Lee)",
 		"position" : "Undergraduate Intern",
@@ -189,7 +199,7 @@ var alumni = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/Minae.jpg",
+		"pic" : "../img/member/alumni/Minae.jpg",
 		"name" : "김민애(Minae Kim)",
 		"position" : "Undergraduate Intern",
 		"interest" : "접근성, VR, AR",
@@ -199,7 +209,7 @@ var alumni = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/Yujin.jpg",
+		"pic" : "../img/member/alumni/Yujin.jpg",
 		"name" : "김유진(Yujin Kim)",
 		"position" : "Undergraduate Intern",
 		"interest" : "Intelligent user interface, voice user interface, Personal user interface, Conversational user interface",
@@ -209,7 +219,7 @@ var alumni = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/Yoonjae.jpg",
+		"pic" : "../img/member/alumni/Yoonjae.jpg",
 		"name" : "최윤재(Yoonjae Choi)",
 		"position" : "Undergraduate Intern",
 		"interest" : "VR/AR",
