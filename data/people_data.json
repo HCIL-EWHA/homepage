@@ -56,7 +56,7 @@ var msStu = [
 		"pic" : "../img/member/ms/Sohyeon.jpg",
 		"name" : "박소현(Sohyeon Park)",
 		"position" : "MS Student",
-		"interest" : "Explainable AI, machine learning",
+		"interest" : "HCI, Human-Centered Computing, Accessibiliy, Extended Reality",
 		"mail" : "sohyeon911@gmail.com",
 		"homepage" : null,
 		"git" : "https://github.com/codecodechanel",
