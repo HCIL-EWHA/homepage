@@ -61,45 +61,25 @@ var msStu = [
 		"homepage" : null,
 		"git" : "https://github.com/codecodechanel",
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Chaerin.jpg",
+		"name" : "이채린(Chaerin Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Computer Vision, Accessibility",
+		"mail" : "dars997@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
 	}
 ]
 
 var underStu = [
 	{
-		"pic" : "../img/member/under/Soobin.jpeg",
-		"name" : "박수빈(Soobin Park)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, VR/AR, social computing, computer graphics",
-		"mail" : "park_sb@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Kyungyeon.jpg",
-		"name" : "이경연(Kyungyeon Lee)",
-		"position" : "Undergraduate Intern",
-		"interest" : "Human-Computer Interaction, Human-Centered Computing, Accessibility, Extended Reality",
-		"mail" : "ruddus716@ewhain.net",
-		"homepage" : "https://kyungyeon-lee.github.io/",
-		"git" : null,
-		"linkdIn" : "https://www.linkedin.com/in/kyungyeon-l-7ba831118/"
-	},
-	{
-		"pic" : "../img/member/under/Suhyeon.jpg",
-		"name" : "류수현(Suhyeon Yoo)",
-		"position" : "Undergraduate Intern",
-		"interest" : "Mobile Health(Wearables/ Fabrication), Applied Computer Vision, AR, Accessibility",
-		"mail" : "ysh9473@ewhain.net",
-		"homepage" : "https://chatherina423.blogspot.com/",
-		"git" : "https://github.com/Chatherina423",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Hyeonjeong.jpg",
+		"pic" : "../img/member/under/Hyeonjeong.JPG",
 		"name" : "변현정(Hyeonjeong Byeon)",
 		"position" : "Undergraduate Intern",
-		"interest" : "머신러닝, NLP, Sentiment Analysis",
+		"interest" : "HCI, Accessibility, Deep Learning, NLP, Sentiment Analysis",
 		"mail" : "cat@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/hyeonJeongByeon",
@@ -166,16 +146,6 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/Chaerin.jpg",
-		"name" : "이채린(Chaerin Lee)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Computer Vision, Accessibility",
-		"mail" : "dars997@gmail.com",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
 		"pic" : "../img/member/under/Minjae.jpg",
 		"name" : "조민재(Minjae Joe)",
 		"position" : "Undergraduate Intern",
@@ -184,7 +154,37 @@ var underStu = [
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
-	}	
+	},
+	{
+		"pic" : "../img/member/under/Minchae.jpg",
+		"name" : "강민채(Minchae Kang)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCL, VR/AR, wearable device",
+		"mail" : "cha_ming20@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Hannah.JPG",
+		"name" : "김한나(Hannah Kim)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCL, VR/AR, wearable device",
+		"mail" : "hannahk01@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/Gamddalki",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/GeonHee.jpg",
+		"name" : "안건희(GeonHee Ahn)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCL",
+		"mail" : "justamoment@ewahin.net",
+		"homepage" : null,
+		"git" : "https://github.com/GeonHeeAhn",
+		"linkdIn" : null
+	}		
 ]
 
 var alumni = [
@@ -216,6 +216,36 @@ var alumni = [
 		"mail" : "komgi0715@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/Yusastar",
+		"linkdIn" : null
+	}, 
+	{
+		"pic" : "../img/member/under/Soobin.jpeg",
+		"name" : "박수빈(Soobin Park)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, VR/AR, social computing, computer graphics",
+		"mail" : "park_sb@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Kyungyeon.jpg",
+		"name" : "이경연(Kyungyeon Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "Human-Computer Interaction, Human-Centered Computing, Accessibility, Extended Reality",
+		"mail" : "ruddus716@ewhain.net",
+		"homepage" : "https://kyungyeon-lee.github.io/",
+		"git" : null,
+		"linkdIn" : "https://www.linkedin.com/in/kyungyeon-l-7ba831118/"
+	},
+	{
+		"pic" : "../img/member/under/Suhyeon.jpg",
+		"name" : "류수현(Suhyeon Yoo)",
+		"position" : "Undergraduate Intern",
+		"interest" : "Mobile Health(Wearables/ Fabrication), Applied Computer Vision, AR, Accessibility",
+		"mail" : "ysh9473@ewhain.net",
+		"homepage" : "https://chatherina423.blogspot.com/",
+		"git" : "https://github.com/Chatherina423",
 		"linkdIn" : null
 	},
 	{
