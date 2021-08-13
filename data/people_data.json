@@ -76,7 +76,7 @@ var msStu = [
 
 var underStu = [
 	{
-		"pic" : "../img/member/under/Hyeonjeong.JPG",
+		"pic" : "../img/member/under/Hyeonjeong.jpg",
 		"name" : "변현정(Hyeonjeong Byeon)",
 		"position" : "Undergraduate Intern",
 		"interest" : "HCI, Accessibility, Deep Learning, NLP, Sentiment Analysis",
