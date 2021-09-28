@@ -65,9 +65,9 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/Chaerin.jpg",
 		"name" : "이채린(Chaerin Lee)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Computer Vision, Accessibility",
-		"mail" : "dars997@gmail.com",
+		"position" : "MS Student",
+		"interest" : "HCI, Accessibility, Data visualization",
+		"mail" : "chaerinlee@ewhain.net",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
@@ -91,66 +91,6 @@ var underStu = [
 		"position" : "Undergraduate Intern",
 		"interest" : "AI , eye-tracking, 뇌파인식, big data",
 		"mail" : "yds04312@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Soohyun.jpg",
-		"name" : "여수현(Soohyun Yeo)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Fintech",
-		"mail" : "yeo7764@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Seungwon.jpg",
-		"name" : "최승원(Seungwon Choi)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Machine learning, Web Development",
-		"mail" : "dandelionsw2@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/seungwon2",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Minju.jpg",
-		"name" : "김민주(Kim Minju)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, DeepLearning, AI, VR/AR, BigData",
-		"mail" : "fantasi2000@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Soyeon.jpg",
-		"name" : "윤소연(Yoon Soyeon)",
-		"position" : "Undergraduate Intern",
-		"interest" : "wearable device, IOT device development, biosensor, Natural User Interface",
-		"mail" : "soyeoncom@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Yoolri.jpg",
-		"name" : "이율리(Yoolri Lee)",
-		"position" : "Undergraduate Intern",
-		"interest" : "DeepLearning, Accessibility",
-		"mail" : "lucca6042@naver.com",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Minjae.jpg",
-		"name" : "조민재(Minjae Joe)",
-		"position" : "Undergraduate Intern",
-		"interest" : "AR, VR, 머신러닝",
-		"mail" : "rycbar1999@naver.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
@@ -254,6 +194,66 @@ var alumni = [
 		"position" : "Undergraduate Intern",
 		"interest" : "VR/AR",
 		"mail" : "yunyun3599@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Soohyun.jpg",
+		"name" : "여수현(Soohyun Yeo)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Fintech",
+		"mail" : "yeo7764@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Seungwon.jpg",
+		"name" : "최승원(Seungwon Choi)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Machine learning, Web Development",
+		"mail" : "dandelionsw2@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/seungwon2",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Minju.jpg",
+		"name" : "김민주(Kim Minju)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, DeepLearning, AI, VR/AR, BigData",
+		"mail" : "fantasi2000@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Soyeon.jpg",
+		"name" : "윤소연(Yoon Soyeon)",
+		"position" : "Undergraduate Intern",
+		"interest" : "wearable device, IOT device development, biosensor, Natural User Interface",
+		"mail" : "soyeoncom@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Yoolri.jpg",
+		"name" : "이율리(Yoolri Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "DeepLearning, Accessibility",
+		"mail" : "lucca6042@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Minjae.jpg",
+		"name" : "조민재(Minjae Joe)",
+		"position" : "Undergraduate Intern",
+		"interest" : "AR, VR, 머신러닝",
+		"mail" : "rycbar1999@naver.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
