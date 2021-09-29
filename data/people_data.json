@@ -117,14 +117,34 @@ var underStu = [
 	},
 	{
 		"pic" : "../img/member/under/GeonHee.jpg",
-		"name" : "안건희(GeonHee Ahn)",
+		"name" : "안건희(Geonhee Ahn)",
 		"position" : "Undergraduate Intern",
 		"interest" : "HCL",
 		"mail" : "justamoment@ewahin.net",
 		"homepage" : null,
 		"git" : "https://github.com/GeonHeeAhn",
 		"linkdIn" : null
-	}		
+	},
+	{
+		"pic" : "../img/member/under/Jiyeon Park.jpg",
+		"name" : "박지연(Jiyeon Park)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Accessibility,  Human-Centered Computing",
+		"mail" : "jeeyun430@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/YoungJin Joo.jpg",
+		"name" : "박지연(Youngjin Joo)",
+		"position" : "Undergraduate Intern",
+		"interest" : "Accessibility, Tactile, Interactive, Ergonomic and Approachability",
+		"mail" : "youngjinj000@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	}				
 ]
 
 var alumni = [
