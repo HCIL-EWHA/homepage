@@ -15,7 +15,7 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/YunJung.jpg",
 		"name" : "이연정(YunJung Lee)",
-		"position" : "MS Student",
+		"position" : "M.S/Ph.D Student",
 		"interest" : "HCI, Accessibility, SelfieHelper",
 		"mail" : "yunjung.lee.dev@gmail.com",
 		"homepage" : null,
@@ -25,7 +25,7 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/SeungA.jpg",
 		"name" : "정승아(SeungA Chung)",
-		"position" : "MS Student",
+		"position" : "Ph.D Student",
 		"interest" : "HCI, XR, Empathic Computing, Accessibility, AI",
 		"mail" : "ewhacsa@ewhain.net",
 		"homepage" : null,
@@ -35,7 +35,7 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/Hwayeon.jpeg",
 		"name" : "조화연(Hwayeon Joh)",
-		"position" : "MS Student",
+		"position" : "M.S Student",
 		"interest" : "HCI, Digital therapy, Mental health, Psychotherapy, EEG(Electroencephalogram)",
 		"mail" : "e.johhy@gmail.com",
 		"homepage" : null,
@@ -45,7 +45,7 @@ var msStu = [
     {
         "pic" : "../img/member/ms/Kyulee.jpg",
         "name" : "김규리(Kyulee Kim)",
-        "position" : "MS Student",
+        "position" : "M.S Student",
         "interest" : "HCI, 교육",
         "mail" : "klk1193@ewhain.net",
         "homepage" : null,
@@ -55,9 +55,9 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/Sohyeon.jpg",
 		"name" : "박소현(Sohyeon Park)",
-		"position" : "MS Student",
+		"position" : "M.S Student",
 		"interest" : "HCI, Human-Centered Computing, Accessibiliy, Extended Reality",
-		"mail" : "sohyeon911@gmail.com",
+		"mail" : "cookiedough0911@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/codecodechanel",
 		"linkdIn" : null
@@ -65,11 +65,31 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/Chaerin.jpg",
 		"name" : "이채린(Chaerin Lee)",
-		"position" : "MS Student",
+		"position" : "M.S Student",
 		"interest" : "HCI, Accessibility, Data visualization",
 		"mail" : "chaerinlee@ewhain.net",
 		"homepage" : null,
 		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Yeojin.jpg",
+		"name" : "김여진(Yeojin Kim)",
+		"position" : "M.S Student",
+		"interest" : "HCI, BCI, EEG, Wearables",
+		"mail" : "yeojin.r.kim@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Jiyeon.jpg",
+		"name" : "한지연(Jiyeon Han)",
+		"position" : "M.S/Ph.D Student",
+		"interest" : "감성컴퓨팅, 웨어러블 컴퓨팅",
+		"mail" : "boss.hz734@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/HZie",
 		"linkdIn" : null
 	}
 ]
@@ -89,7 +109,7 @@ var underStu = [
 		"pic" : "../img/member/under/Leeje.jpg",
 		"name" : "장이제(Leeje Jang)",
 		"position" : "Undergraduate Intern",
-		"interest" : "AI , eye-tracking, 뇌파인식, big data",
+		"interest" : "AI, eye-tracking, 뇌파인식, big data",
 		"mail" : "yds04312@ewhain.net",
 		"homepage" : null,
 		"git" : null,
@@ -129,15 +149,25 @@ var underStu = [
 		"pic" : "../img/member/under/Jiyeon Park.jpg",
 		"name" : "박지연(Jiyeon Park)",
 		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Accessibility,  Human-Centered Computing",
+		"interest" : "HCI, Accessibility, Human-Centered Computing",
 		"mail" : "jeeyun430@gmail.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/YoungJin Joo.jpg",
-		"name" : "박지연(Youngjin Joo)",
+		"pic" : "../img/member/under/Jeemin.jpg",
+		"name" : "이지민(Jeemin Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Accessibility",
+		"mail" : "hellofairy@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/YoungJin.jpg",
+		"name" : "주영진(Youngjin Joo)",
 		"position" : "Undergraduate Intern",
 		"interest" : "Accessibility, Tactile, Interactive, Ergonomic and Approachability",
 		"mail" : "youngjinj000@gmail.com",
