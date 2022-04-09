@@ -23,10 +23,10 @@ var msStu = [
 		"linkdIn" : "https://www.linkedin.com/in/%EC%97%B0%EC%A0%95-%EC%9D%B4-777500138/"
 	},
 	{
-		"pic" : "../img/member/ms/SeungA.jpg",
+		"pic" : "../img/member/ms/SeungA.jpeg",
 		"name" : "정승아(SeungA Chung)",
 		"position" : "Ph.D Student",
-		"interest" : "HCI, XR, Empathic Computing, Accessibility, AI",
+		"interest" : "HCI, XR, Empathic Computing, Accessibility",
 		"mail" : "ewhacsa@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/seuch98",
@@ -35,8 +35,8 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/Hwayeon.jpeg",
 		"name" : "조화연(Hwayeon Joh)",
-		"position" : "M.S Student",
-		"interest" : "HCI, Digital therapy, Mental health, Psychotherapy, EEG(Electroencephalogram)",
+		"position" : "M.S/Ph.D Student",
+		"interest" : "HCI, Accessibility, Digital therapy, Mental health, Psychotherapy, EEG(Electroencephalogram)",
 		"mail" : "e.johhy@gmail.com",
 		"homepage" : null,
 		"git" : "https://github.com/HY-Joe",
@@ -60,6 +60,16 @@ var msStu = [
 		"mail" : "cookiedough0911@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/codecodechanel",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/alumni/Yujin.jpg",
+		"name" : "김유진(Yujin Kim)",
+		"position" : "M.S Student",
+		"interest" : "Intelligent user interface, voice user interface, Personal user interface, Conversational user interface",
+		"mail" : "komgi0715@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/Yusastar",
 		"linkdIn" : null
 	},
 	{
@@ -164,17 +174,7 @@ var underStu = [
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/YoungJin.jpg",
-		"name" : "주영진(Youngjin Joo)",
-		"position" : "Undergraduate Intern",
-		"interest" : "Accessibility, Tactile, Interactive, Ergonomic and Approachability",
-		"mail" : "youngjinj000@gmail.com",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	}				
+	}			
 ]
 
 var alumni = [
@@ -196,16 +196,6 @@ var alumni = [
 		"mail" : "kimminae3654@naver.com",
 		"homepage" : null,
 		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/alumni/Yujin.jpg",
-		"name" : "김유진(Yujin Kim)",
-		"position" : "Undergraduate Intern",
-		"interest" : "Intelligent user interface, voice user interface, Personal user interface, Conversational user interface",
-		"mail" : "komgi0715@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/Yusastar",
 		"linkdIn" : null
 	}, 
 	{
@@ -304,6 +294,16 @@ var alumni = [
 		"position" : "Undergraduate Intern",
 		"interest" : "AR, VR, 머신러닝",
 		"mail" : "rycbar1999@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/YoungJin.jpg",
+		"name" : "주영진(Youngjin Joo)",
+		"position" : "Undergraduate Intern",
+		"interest" : "Accessibility, Tactile, Interactive, Ergonomic and Approachability",
+		"mail" : "youngjinj000@gmail.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
