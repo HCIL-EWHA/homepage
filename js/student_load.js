@@ -6,9 +6,11 @@ var dom = "";
 
 function load() {
 	jsonProf();
+	jsonPost();
 	jsonMS();
 	jsonUnder();
 	jsonAlumni();
+	jsonInternAlumni();
 }
 
 function jsonProf(){
@@ -23,13 +25,34 @@ function jsonProf(){
 		cnt++;
 
 		if (i == len-1)
-			if (cnt%3==1)
-				makeBlank(2);
-			else if (cnt%3==2)
+			if (cnt%4==1)
+				makeBlank(3);
+			else if (cnt%4==2)
 				makeBlank(1);
 	}
 
 	addCode("prof_data");
+}
+
+function jsonPost(){
+
+	var len = Object.keys(post).length;
+	
+	var cnt =0;
+
+	for (var i = 0; i < len; i++) {
+
+		makeList(post, i);
+		cnt++;
+
+		if (i == len-1)
+			if (cnt%4==1)
+				makeBlank(3);
+			else if (cnt%4==2)
+				makeBlank(1);
+	}
+
+	addCode("post_data");
 }
 
 function jsonMS(){
@@ -44,10 +67,8 @@ function jsonMS(){
 		cnt++;
 
 		if (i == len-1)
-			if (cnt%3==1)
-				makeBlank(2);
-			else if (cnt%3==2)
-				makeBlank(1);
+			if (cnt%4!=0)
+				makeBlank(4-(cnt%4));
 	}
 
 	addCode("msStu_list");
@@ -65,10 +86,8 @@ function jsonUnder() {
 		cnt++;
 
 		if (i == len-1)
-			if (cnt%3==1)
-				makeBlank(2);
-			else if (cnt%3==2)
-				makeBlank(1);
+			if (cnt%4!=0)
+				makeBlank(4-(cnt%4));
 	}
 
 	addCode("underStu_list");
@@ -86,13 +105,30 @@ function jsonAlumni() {
 		cnt++;
 
 		if (i == len-1)
-			if (cnt%3==1)
-				makeBlank(2);
-			else if (cnt%3==2)
-				makeBlank(1);
+			if (cnt%4!=0)
+				makeBlank(4-(cnt%4));
 	}
 
 	addCode("alumni_list");
+}
+
+function jsonInternAlumni() {
+
+	var len = Object.keys(Internalumni).length;
+	
+	var cnt =0;
+
+	for (var i = 0; i < len; i++) {
+
+		makeList(Internalumni, i);
+		cnt++;
+
+		if (i == len-1)
+			if (cnt%4!=0)
+				makeBlank(4-(cnt%4));
+	}
+
+	addCode("Intern_alumni_list");
 }
 
 
@@ -103,7 +139,7 @@ function makeBlank(cnt) {
 
 function makeList(str, num) {
 
-	if (num%3 == 0)
+	if (num%4 == 0)
 		dom += "<div class='card-deck'>"
 
 	dom += "<div class='card'>"
@@ -129,7 +165,7 @@ function makeList(str, num) {
     dom += "</div>"
         + "</div>"
 
-    if (num%3 == 2)
+    if (num%4 == 3)
     	dom += "</div>"
 }
 
