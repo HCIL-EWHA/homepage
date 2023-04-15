@@ -18,9 +18,9 @@ var post = [
 		"position" : "Postdoctral Researcher",
 		"interest" : "HCI + Accessibility , Development of technologies to improve people’s quality of life",
 		"mail" : "filoteo_2000@hotmail.com",
-		"homepage" : "http://www.linkedin.com/in/luis-cavazos",
+		"homepage" : "http://luis.filoware.com/",
 		"git" : "https://github.com/filoteo-2000",
-		"linkdIn" : null
+		"linkdIn" : "http://www.linkedin.com/in/luis-cavazos"
 	}
 ]
 
@@ -55,16 +55,6 @@ var msStu = [
 		"git" : "https://github.com/HY-Joe",
 		"linkdIn" : "https://www.linkedin.com/in/hwayeon-joh-5926a5200/"
 	},
-    {
-        "pic" : "../img/member/ms/Kyulee.jpg",
-        "name" : "김규리(Kyulee Kim)",
-        "position" : "M.S Student",
-        "interest" : "HCI, 교육",
-        "mail" : "klk1193@ewhain.net",
-        "homepage" : null,
-        "git" : null,
-        "linkdIn" : null
-    },
 	{
 		"pic" : "../img/member/alumni/Yujin.jpg",
 		"name" : "김유진(Yujin Kim)",
@@ -137,11 +127,50 @@ var underStu = [
 		"homepage" : null,
 		"git" : "https://github.com/hyeonJeongByeon",
 		"linkdIn" : null
-	}			
+	},
+	{
+		"pic" : "../img/member/under/SoyeonLee.gif",
+		"name" : "이소연(Soyeon Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, AI, Accessibility, Robotics",
+		"mail" : "soysilver@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Hannah.JPG",
+		"name" : "김한나(Hannah Kim)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCL, VR/AR, wearable device",
+		"mail" : "hannahk01@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/Gamddalki",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Eunyeoul.jpg",
+		"name" : "이은여울(Eunyeoul Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "XR, UX/UI, AI, Digital Therapeutics, Education",
+		"mail" : "e.lee@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	}				
 ]
 
 var alumni = [
-
+	{
+        "pic" : "../img/member/ms/Kyulee.jpg",
+        "name" : "김규리(Kyulee Kim)",
+        "position" : "M.S Student",
+        "interest" : "HCI, 교육",
+        "mail" : "klk1193@ewhain.net",
+        "homepage" : null,
+        "git" : null,
+        "linkdIn" : null
+    }
 ]
 
 var Internalumni = [
@@ -293,16 +322,6 @@ var Internalumni = [
 		"mail" : "cha_ming20@ewhain.net",
 		"homepage" : null,
 		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Hannah.JPG",
-		"name" : "김한나(Hannah Kim)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCL, VR/AR, wearable device",
-		"mail" : "hannahk01@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/Gamddalki",
 		"linkdIn" : null
 	},
 	{
