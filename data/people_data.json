@@ -114,6 +114,26 @@ var msStu = [
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Juhyeong.jpeg",
+		"name" : "강주형(Juhyeong Kang)",
+		"position" : "M.S Student",
+		"interest" : "HCI, BCI, AI, EEG, Cognitive Science, Information Processing, Sleep, Brain Network, Brain Mapping",
+		"mail" : "juhy@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/juhyyy",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Eunyeoul.jpg",
+		"name" : "이은여울(Eunyeoul Lee)",
+		"position" : "M.S Student",
+		"interest" : "XR, UX/UI, AI, Digital Therapeutics, Education",
+		"mail" : "e.lee@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
 	}
 ]
 
@@ -147,17 +167,7 @@ var underStu = [
 		"homepage" : null,
 		"git" : "https://github.com/Gamddalki",
 		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Eunyeoul.jpg",
-		"name" : "이은여울(Eunyeoul Lee)",
-		"position" : "Undergraduate Intern",
-		"interest" : "XR, UX/UI, AI, Digital Therapeutics, Education",
-		"mail" : "e.lee@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	}				
+	}
 ]
 
 var alumni = [
