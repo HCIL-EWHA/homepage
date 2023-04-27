@@ -167,6 +167,16 @@ var underStu = [
 		"homepage" : null,
 		"git" : "https://github.com/Gamddalki",
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Jiseon.jpg",
+		"name" : "양지선(Jiseon Yang)",
+		"position" : "Undergraduate Intern",
+		"interest" : "(헬스케어) 데이터분석, 데이터시각화, AI",
+		"mail" : "yjs10116@ewhain.net",
+		"homepage" : "https://sun-garret.tistory.com/",
+		"git" : "https://github.com/Sunnnyyy16",
+		"linkdIn" : "https://www.linkedin.com/in/jiseony"
 	}
 ]
 
