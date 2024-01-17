@@ -9,6 +9,7 @@ function load() {
 	jsonPost();
 	jsonMS();
 	jsonUnder();
+	jsonPostAlumni();
 	jsonAlumni();
 	jsonInternAlumni();
 }
@@ -91,6 +92,25 @@ function jsonUnder() {
 	}
 
 	addCode("underStu_list");
+}
+
+function jsonPostAlumni() {
+
+	var len = Object.keys(postAlumni).length;
+	
+	var cnt =0;
+
+	for (var i = 0; i < len; i++) {
+
+		makeList(postAlumni, i);
+		cnt++;
+
+		if (i == len-1)
+			if (cnt%4!=0)
+				makeBlank(4-(cnt%4));
+	}
+
+	addCode("post_alumni_list");
 }
 
 function jsonAlumni() {

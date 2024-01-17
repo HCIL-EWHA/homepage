@@ -12,16 +12,7 @@ var prof = [
 ]
 
 var post = [
-	{
-		"pic" : "../img/member/post/Luis.jpg",
-		"name" : "루이스(Luis Cavazos)",
-		"position" : "Postdoctral Researcher",
-		"interest" : "HCI + Accessibility , Development of technologies to improve people’s quality of life",
-		"mail" : "filoteo_2000@hotmail.com",
-		"homepage" : "http://luis.filoware.com/",
-		"git" : "https://github.com/filoteo-2000",
-		"linkdIn" : "http://www.linkedin.com/in/luis-cavazos"
-	}
+	
 ]
 
 var msStu = [
@@ -29,7 +20,7 @@ var msStu = [
 		"pic" : "../img/member/ms/YunJung.jpg",
 		"name" : "이연정(YunJung Lee)",
 		"position" : "M.S/Ph.D Student",
-		"interest" : "HCI, Accessibility, SelfieHelper",
+		"interest" : "HCI, Accessibility, Comics, SelfieHelper, Photo,  Album",
 		"mail" : "yunjung.lee.dev@gmail.com",
 		"homepage" : null,
 		"git" : "https://github.com/YunjungLeeHappy",
@@ -56,36 +47,6 @@ var msStu = [
 		"linkdIn" : "https://www.linkedin.com/in/hwayeon-joh-5926a5200/"
 	},
 	{
-		"pic" : "../img/member/alumni/Yujin.jpg",
-		"name" : "김유진(Yujin Kim)",
-		"position" : "M.S Student",
-		"interest" : "Intelligent User Interface, Voice User Interface, Personal User Interface, Conversational User Interface",
-		"mail" : "komgi0715@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/Yusastar",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/Chaerin.jpg",
-		"name" : "이채린(Chaerin Lee)",
-		"position" : "M.S Student",
-		"interest" : "HCI, Accessibility, Data Visualization",
-		"mail" : "chaerinlee@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/Yeojin.jpg",
-		"name" : "김여진(Yeojin Kim)",
-		"position" : "M.S Student",
-		"interest" : "HCI, BCI, EEG, Wearables",
-		"mail" : "yeojin.r.kim@gmail.com",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
 		"pic" : "../img/member/ms/Jiyeon.jpg",
 		"name" : "한지연(Jiyeon Han)",
 		"position" : "M.S/Ph.D Student",
@@ -109,7 +70,7 @@ var msStu = [
 		"pic" : "../img/member/ms/ParkJimin.jpg",
 		"name" : "박지민(Park Jimin)",
 		"position" : "M.S Student",
-		"interest" : "HCI, Accessibility",
+		"interest" : "HCI, Accessibility, UI/UX",
 		"mail" : "parkjimin1224@gmail.com",
 		"homepage" : null,
 		"git" : null,
@@ -134,20 +95,70 @@ var msStu = [
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Kyungok.jpeg",
+		"name" : "김경옥(Kyungok Kim)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI, Accessibility, Safety",
+		"mail" : "232aig03@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/EunbinCho.jpg",
+		"name" : "조은빈(Eunbin Cho)",
+		"position" : "M.S/Ph.D Student",
+		"interest" : "HCI",
+		"mail" : "echo45@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Jinyoung.jpg",
+		"name" : "허진영 (Jinyoung Huh)",
+		"position" : "M.S Student",
+		"interest" : "HCI, Accessibility, UI/UX",
+		"mail" : "hjy0505@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Eunseo.jpg",
+		"name" : "양은서(Eunseo Yang)",
+		"position" : "M.S Student",
+		"interest" : "Conversational Agent, Adaptive User Interaction, Emotion-aware AI systems, Multimodal Situation Awareness",
+		"mail" : "eunseo1092@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/eunseo-yang",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/SeminLee.jpeg",
+		"name" : "이세민(Semin Lee)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI",
+		"mail" : "dltpals16@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/SooinMoon.jpg",
+		"name" : "문수인(Sooin Moon)",
+		"position" : "M.S Student",
+		"interest" : "HCI, Assistive AI, Affective computing, Mental health, Multimodal AI",
+		"mail" : "mmddui@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
 	}
 ]
 
 var underStu = [
-	{
-		"pic" : "../img/member/under/Hyeonjeong.jpg",
-		"name" : "변현정(Hyeonjeong Byeon)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Accessibility, Deep Learning, NLP, Sentiment Analysis",
-		"mail" : "cat@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/hyeonJeongByeon",
-		"linkdIn" : null
-	},
 	{
 		"pic" : "../img/member/under/SoyeonLee.gif",
 		"name" : "이소연(Soyeon Lee)",
@@ -180,7 +191,30 @@ var underStu = [
 	}
 ]
 
+var postAlumni = [
+	{
+		"pic" : "../img/member/post/Luis.jpg",
+		"name" : "루이스(Luis Cavazos)",
+		"position" : "Postdoctral Researcher",
+		"interest" : "HCI + Accessibility , Development of technologies to improve people’s quality of life",
+		"mail" : "filoteo_2000@hotmail.com",
+		"homepage" : "http://luis.filoware.com/",
+		"git" : "https://github.com/filoteo-2000",
+		"linkdIn" : "http://www.linkedin.com/in/luis-cavazos"
+	}
+]
+
 var alumni = [
+	{
+		"pic" : "../img/member/ms/SeungA.jpeg",
+		"name" : "정승아(SeungA Chung)",
+		"position" : "M.S Student",
+		"interest" : "HCI, XR, Empathic Computing, Accessibility",
+		"mail" : "ewhacsa@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/seuch98",
+		"linkdIn" : "http://linkedin.com/in/seunga-chung-0386a51bb"
+	},
 	{
         "pic" : "../img/member/ms/Kyulee.jpg",
         "name" : "김규리(Kyulee Kim)",
@@ -190,7 +224,37 @@ var alumni = [
         "homepage" : null,
         "git" : null,
         "linkdIn" : null
-    }
+    },
+	{
+		"pic" : "../img/member/ms/Chaerin.jpg",
+		"name" : "이채린(Chaerin Lee)",
+		"position" : "M.S Student",
+		"interest" : "HCI, Accessibility, Data Visualization",
+		"mail" : "chaerinlee@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/alumni/Yujin.jpg",
+		"name" : "김유진(Yujin Kim)",
+		"position" : "M.S Student",
+		"interest" : "Intelligent User Interface, Voice User Interface, Personal User Interface, Conversational User Interface",
+		"mail" : "komgi0715@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/Yusastar",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Yeojin.jpg",
+		"name" : "김여진(Yeojin Kim)",
+		"position" : "M.S Student",
+		"interest" : "HCI, BCI, EEG, Wearables",
+		"mail" : "yeojin.r.kim@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	}
 ]
 
 var Internalumni = [
@@ -382,6 +446,16 @@ var Internalumni = [
 		"mail" : "cookiedough0911@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/codecodechanel",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Hyeonjeong.jpg",
+		"name" : "변현정(Hyeonjeong Byeon)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, Accessibility, Deep Learning, NLP, Sentiment Analysis",
+		"mail" : "cat@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/hyeonJeongByeon",
 		"linkdIn" : null
 	}
 ]
