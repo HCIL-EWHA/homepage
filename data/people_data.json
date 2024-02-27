@@ -127,6 +127,16 @@ var msStu = [
 		"linkdIn" : null
 	},
 	{
+		"pic" : "../img/member/ms/Misu.png",
+		"name" : "정미수(Misu Jung)",
+		"position" : "M.S Student",
+		"interest" : "AI , HCI, UI/UX",
+		"mail" : "daum091409@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
 		"pic" : "../img/member/ms/Eunseo.jpg",
 		"name" : "양은서(Eunseo Yang)",
 		"position" : "M.S Student",
