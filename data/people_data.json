@@ -47,31 +47,11 @@ var msStu = [
 		"linkdIn" : "https://www.linkedin.com/in/hwayeon-joh-5926a5200/"
 	},
 	{
-		"pic" : "../img/member/ms/Jiyeon.jpg",
-		"name" : "한지연(Jiyeon Han)",
-		"position" : "M.S/Ph.D Student",
-		"interest" : "Affective Computing, Wearable Computing",
-		"mail" : "boss.hz734@gmail.com",
-		"homepage" : null,
-		"git" : "https://github.com/HZie",
-		"linkdIn" : null
-	},
-	{
 		"pic" : "../img/member/ms/KimSuhyun.jpg",
 		"name" : "김수현(Kim Suhyun)",
-		"position" : "M.S Student",
+		"position" : "M.S/Ph.D Student",
 		"interest" : "HCI, AI(Artificial Intelligence)",
 		"mail" : "kimsh9907@gmail.com",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/ParkJimin.jpg",
-		"name" : "박지민(Park Jimin)",
-		"position" : "M.S Student",
-		"interest" : "HCI, Accessibility, UI/UX",
-		"mail" : "parkjimin1224@gmail.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
@@ -127,6 +107,16 @@ var msStu = [
 		"linkdIn" : null
 	},
 	{
+		"pic" : "../img/member/under/Jiseon.jpg",
+		"name" : "양지선(Jiseon Yang)",
+		"position" : "M.S Student",
+		"interest" : "(헬스케어) 데이터분석, 데이터시각화, AI",
+		"mail" : "yjs10116@ewhain.net",
+		"homepage" : "https://sun-garret.tistory.com/",
+		"git" : "https://github.com/Sunnnyyy16",
+		"linkdIn" : "https://www.linkedin.com/in/jiseony"
+	},
+	{
 		"pic" : "../img/member/ms/Misu.png",
 		"name" : "정미수(Misu Jung)",
 		"position" : "M.S Student",
@@ -170,16 +160,6 @@ var msStu = [
 
 var underStu = [
 	{
-		"pic" : "../img/member/under/SoyeonLee.gif",
-		"name" : "이소연(Soyeon Lee)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, AI, Accessibility, Robotics",
-		"mail" : "soysilver@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
 		"pic" : "../img/member/under/Hannah.JPG",
 		"name" : "김한나(Hannah Kim)",
 		"position" : "Undergraduate Intern",
@@ -190,14 +170,54 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/Jiseon.jpg",
-		"name" : "양지선(Jiseon Yang)",
+		"pic" : "../img/member/under/JisuKim.png",
+		"name" : "김지수(Jisu Kim)",
 		"position" : "Undergraduate Intern",
-		"interest" : "(헬스케어) 데이터분석, 데이터시각화, AI",
-		"mail" : "yjs10116@ewhain.net",
-		"homepage" : "https://sun-garret.tistory.com/",
-		"git" : "https://github.com/Sunnnyyy16",
-		"linkdIn" : "https://www.linkedin.com/in/jiseony"
+		"interest" : "HCI, Accessibility, Edutainment",
+		"mail" : "rlawltn0214@ewhain.net",
+		"homepage" : "https://codename-1104.tistory.com/",
+		"git" : "https://github.com/Jisu-1104",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/SeongGyeong.jpeg",
+		"name" : "류성경(SeongGyeong Ryu)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, User Behavior, AI",
+		"mail" : "heather128@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/pinktopaz",
+		"linkdIn" : "https://www.linkedin.com/in/seonggyeong-ryu-27677b291/"
+	},
+	{
+		"pic" : "../img/member/under/SunwooPark.jpg",
+		"name" : "박선우(Sunwoo Park)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, accessibility, deep learning",
+		"mail" : "2171015@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/JulieRyu.JPG",
+		"name" : "유승혜(Julie Ryu)",
+		"position" : "Undergraduate Intern",
+		"interest" : "NLP, Speech recognition & transcription, HCI",
+		"mail" : "julieryu2@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/JooHeeJung.jpg",
+		"name" : "정주희(JooHee Jung)",
+		"position" : "Undergraduate Intern",
+		"interest" : "AI, HCI, Affective Computing, Web Development",
+		"mail" : "joohee9n1224@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/Joohee97124",
+		"linkdIn" : null
 	}
 ]
 
@@ -261,6 +281,26 @@ var alumni = [
 		"position" : "M.S Student",
 		"interest" : "HCI, BCI, EEG, Wearables",
 		"mail" : "yeojin.r.kim@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Jiyeon.jpg",
+		"name" : "한지연(Jiyeon Han)",
+		"position" : "M.S/Ph.D Student",
+		"interest" : "Affective Computing, Wearable Computing",
+		"mail" : "boss.hz734@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/HZie",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/ParkJimin.jpg",
+		"name" : "박지민(Park Jimin)",
+		"position" : "M.S Student",
+		"interest" : "HCI, Accessibility, UI/UX",
+		"mail" : "parkjimin1224@gmail.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
@@ -466,6 +506,16 @@ var Internalumni = [
 		"mail" : "cat@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/hyeonJeongByeon",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/SoyeonLee.gif",
+		"name" : "이소연(Soyeon Lee)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, AI, Accessibility, Robotics",
+		"mail" : "soysilver@ewhain.net",
+		"homepage" : null,
+		"git" : null,
 		"linkdIn" : null
 	}
 ]
