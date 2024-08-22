@@ -47,6 +47,16 @@ var msStu = [
 		"linkdIn" : "https://www.linkedin.com/in/hwayeon-joh-5926a5200/"
 	},
 	{
+		"pic" : "../img/member/ms/Xiuyan.jpg",
+		"name" : "주수연 (Xiuyan Zhu)",
+		"position" : "Ph.D Student",
+		"interest" : "HCI, AI, Accessibility, Affective Computing",
+		"mail" : "xiuyan.zhu@ewha.ac.kr",
+		"homepage" : null,
+		"git" : "https://github.com/XiuyanZhu",
+		"linkdIn" : null
+	},
+	{
 		"pic" : "../img/member/ms/KimSuhyun.jpg",
 		"name" : "김수현(Kim Suhyun)",
 		"position" : "M.S/Ph.D Student",
