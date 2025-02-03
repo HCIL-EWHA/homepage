@@ -48,7 +48,7 @@ var msStu = [
 	},
 	{
 		"pic" : "../img/member/ms/Xiuyan.jpg",
-		"name" : "주수연 (Xiuyan Zhu)",
+		"name" : "주수연(Xiuyan Zhu)",
 		"position" : "Ph.D Student",
 		"interest" : "HCI, AI, Accessibility, Affective Computing",
 		"mail" : "xiuyan.zhu@ewha.ac.kr",
@@ -57,31 +57,21 @@ var msStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/ms/KimSuhyun.jpg",
-		"name" : "김수현(Kim Suhyun)",
-		"position" : "M.S/Ph.D Student",
-		"interest" : "HCI, AI(Artificial Intelligence)",
-		"mail" : "kimsh9907@gmail.com",
+		"pic" : "../img/member/ms/Oksu.JPG",
+		"name" : "송옥수(Oksu Song)",
+		"position" : "Ph.D Student",
+		"interest" : "TPM/PMO, HCI, Accessibility",
+		"mail" : "oksu@ewhain.net",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/ms/Juhyeong.jpeg",
-		"name" : "강주형(Juhyeong Kang)",
-		"position" : "M.S Student",
-		"interest" : "HCI, BCI, AI, EEG, Cognitive Science, Information Processing, Sleep, Brain Network, Brain Mapping",
-		"mail" : "juhy@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/juhyyy",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Eunyeoul.jpg",
-		"name" : "이은여울(Eunyeoul Lee)",
-		"position" : "M.S Student",
-		"interest" : "XR, UX/UI, AI, Digital Therapeutics, Education",
-		"mail" : "e.lee@ewhain.net",
+		"pic" : "../img/member/ms/KimSuhyun.jpg",
+		"name" : "김수현(Kim Suhyun)",
+		"position" : "M.S/Ph.D Student",
+		"interest" : "HCI, AI(Artificial Intelligence)",
+		"mail" : "kimsh9907@gmail.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
@@ -108,7 +98,7 @@ var msStu = [
 	},
 	{
 		"pic" : "../img/member/ms/Jinyoung.jpg",
-		"name" : "허진영 (Jinyoung Huh)",
+		"name" : "허진영(Jinyoung Huh)",
 		"position" : "M.S Student",
 		"interest" : "HCI, Accessibility, UI/UX",
 		"mail" : "hjy0505@ewhain.net",
@@ -165,20 +155,30 @@ var msStu = [
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Yoonjae.jpg",
+		"name" : "오윤재(Yoonjae Oh)",
+		"position" : "M.S Student",
+		"interest" : "HCI, UX/UI, AI, Blockchain",
+		"mail" : "angelaoh4686@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/JooHeeJung2.jpg",
+		"name" : "정주희(JooHee Jung)",
+		"position" : "M.S Student",
+		"interest" : "Accessibility, LLM",
+		"mail" : "joohee9n1224@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/Joohee97124",
+		"linkdIn" : null
 	}
 ]
 
 var underStu = [
-	{
-		"pic" : "../img/member/under/Hannah.JPG",
-		"name" : "김한나(Hannah Kim)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCL, VR/AR, wearable device",
-		"mail" : "hannahk01@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/Gamddalki",
-		"linkdIn" : null
-	},
 	{
 		"pic" : "../img/member/under/JisuKim.png",
 		"name" : "김지수(Jisu Kim)",
@@ -190,44 +190,24 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/SeongGyeong.jpeg",
-		"name" : "류성경(SeongGyeong Ryu)",
+		"pic" : "../img/member/under/JulieRyuOh.jpg",
+		"name" : "오지흔(Jeeheun Oh)",
 		"position" : "Undergraduate Intern",
-		"interest" : "HCI, User Behavior, AI",
-		"mail" : "heather128@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/pinktopaz",
-		"linkdIn" : "https://www.linkedin.com/in/seonggyeong-ryu-27677b291/"
-	},
-	{
-		"pic" : "../img/member/under/SunwooPark.jpg",
-		"name" : "박선우(Sunwoo Park)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, accessibility, deep learning",
-		"mail" : "2171015@ewhain.net",
+		"interest" : "HCI, accessibility",
+		"mail" : "sallyjoyoh@ewhain.net",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/JulieRyu.JPG",
-		"name" : "유승혜(Julie Ryu)",
+		"pic" : "../img/member/under/Minyoung.heic",
+		"name" : "주민영(Minyoung Joo)",
 		"position" : "Undergraduate Intern",
-		"interest" : "NLP, Speech recognition & transcription, HCI",
-		"mail" : "julieryu2@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/JooHeeJung.jpg",
-		"name" : "정주희(JooHee Jung)",
-		"position" : "Undergraduate Intern",
-		"interest" : "AI, HCI, Affective Computing, Web Development",
-		"mail" : "joohee9n1224@gmail.com",
-		"homepage" : null,
-		"git" : "https://github.com/Joohee97124",
-		"linkdIn" : null
+		"interest" : "LLM, Conversational AI, Multimodal, AI-powered learning systems, digital healthcare",
+		"mail" : "lilybell77@ewhain.net",
+		"homepage" : "https://minyoungjoo.github.io/",
+		"git" : "https://github.com/MinyoungJoo",
+		"linkdIn" : "https://www.linkedin.com/in/minyoung-joo-642212246/"
 	}
 ]
 
@@ -311,6 +291,26 @@ var alumni = [
 		"position" : "M.S Student",
 		"interest" : "HCI, Accessibility, UI/UX",
 		"mail" : "parkjimin1224@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Juhyeong.jpeg",
+		"name" : "강주형(Juhyeong Kang)",
+		"position" : "M.S Student",
+		"interest" : "HCI, BCI, AI, EEG, Cognitive Science, Information Processing, Sleep, Brain Network, Brain Mapping",
+		"mail" : "juhy@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/juhyyy",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Eunyeoul.jpg",
+		"name" : "이은여울(Eunyeoul Lee)",
+		"position" : "M.S Student",
+		"interest" : "XR, UX/UI, AI, Digital Therapeutics, Education",
+		"mail" : "e.lee@ewhain.net",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
@@ -524,6 +524,46 @@ var Internalumni = [
 		"position" : "Undergraduate Intern",
 		"interest" : "HCI, AI, Accessibility, Robotics",
 		"mail" : "soysilver@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Hannah.JPG",
+		"name" : "김한나(Hannah Kim)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCL, VR/AR, wearable device",
+		"mail" : "hannahk01@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/Gamddalki",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/SeongGyeong.jpeg",
+		"name" : "류성경(SeongGyeong Ryu)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, User Behavior, AI",
+		"mail" : "heather128@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/pinktopaz",
+		"linkdIn" : "https://www.linkedin.com/in/seonggyeong-ryu-27677b291/"
+	},
+	{
+		"pic" : "../img/member/under/SunwooPark.jpg",
+		"name" : "박선우(Sunwoo Park)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, accessibility, deep learning",
+		"mail" : "2171015@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/JulieRyu.JPG",
+		"name" : "유승혜(Julie Ryu)",
+		"position" : "Undergraduate Intern",
+		"interest" : "NLP, Speech recognition & transcription, HCI",
+		"mail" : "julieryu2@ewhain.net",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
