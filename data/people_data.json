@@ -157,11 +157,31 @@ var msStu = [
 		"linkdIn" : null
 	},
 	{
+		"pic" : "../img/member/ms/HaejinPark.JPEG",
+		"name" : "박혜진(Haejin Park)",
+		"position" : "M.S Student",
+		"interest" : "HCI, BCI",
+		"mail" : "hyejin9313@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/hyp00",
+		"linkdIn" : null
+	},
+	{
 		"pic" : "../img/member/ms/Yoonjae.jpg",
 		"name" : "오윤재(Yoonjae Oh)",
 		"position" : "M.S Student",
 		"interest" : "HCI, UX/UI, AI, Blockchain",
 		"mail" : "angelaoh4686@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/SohyunLee.jpg",
+		"name" : "이소현(Sohyun Lee)",
+		"position" : "M.S/Ph.D Student",
+		"interest" : "HCI, Accessibility, Digital Therapy, Mental Health, Psychotherapy, EEG(Electroencephalogram)",
+		"mail" : "sssh7887@gmail.com",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
