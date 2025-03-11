@@ -210,6 +210,16 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
+		"pic" : "../img/member/under/HayeonDoh.heic",
+		"name" : "도하연(Hayeon Doh)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI , UI/UX , Educational Technology, Information Visualization",
+		"mail" : "hayeonlr@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/doh-ha",
+		"linkdIn" : null
+	},
+	{
 		"pic" : "../img/member/under/JulieRyuOh.jpg",
 		"name" : "오지흔(Jeeheun Oh)",
 		"position" : "Undergraduate Intern",
