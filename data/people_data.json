@@ -210,7 +210,7 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/HayeonDoh.heic",
+		"pic" : "../img/member/under/HayeonDoh.jpg",
 		"name" : "도하연(Hayeon Doh)",
 		"position" : "Undergraduate Intern",
 		"interest" : "HCI , UI/UX , Educational Technology, Information Visualization",
@@ -230,7 +230,7 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/Minyoung.heic",
+		"pic" : "../img/member/under/Minyoung.jpg",
 		"name" : "주민영(Minyoung Joo)",
 		"position" : "Undergraduate Intern",
 		"interest" : "LLM, Conversational AI, Multimodal, AI-powered learning systems, digital healthcare",
