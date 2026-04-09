@@ -107,16 +107,6 @@ var msStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/Jiseon.jpg",
-		"name" : "양지선(Jiseon Yang)",
-		"position" : "M.S Student",
-		"interest" : "(헬스케어) 데이터분석, 데이터시각화, AI",
-		"mail" : "yjs10116@ewhain.net",
-		"homepage" : "https://sun-garret.tistory.com/",
-		"git" : "https://github.com/Sunnnyyy16",
-		"linkdIn" : "https://www.linkedin.com/in/jiseony"
-	},
-	{
 		"pic" : "../img/member/ms/Misu.png",
 		"name" : "정미수(Misu Jung)",
 		"position" : "M.S Student",
@@ -159,7 +149,7 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/HaejinPark.JPEG",
 		"name" : "박혜진(Haejin Park)",
-		"position" : "M.S Student",
+		"position" : "M.S StudenmsStut",
 		"interest" : "HCI, BCI",
 		"mail" : "hyejin9313@ewhain.net",
 		"homepage" : null,
@@ -195,6 +185,56 @@ var msStu = [
 		"homepage" : null,
 		"git" : "https://github.com/Joohee97124",
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/HayeonKim.jpeg",
+		"name" : "김하연(Hayeon Kim)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI",
+		"mail" : "hayy@ewha.ac.kr",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Yeonu.jpg",
+		"name" : "도연우(Yeonu Do)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI",
+		"mail" : "yeonu_do@ewha.ac.kr",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : "https://www.linkedin.com/in/yeonu-do"
+	},
+	{
+		"pic" : "../img/member/ms/JihyunAn.png",
+		"name" : "안지현(Jihyun An)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI",
+		"mail" : "anjh@ewha.ac.kr",
+		"homepage" : null,
+		"git" : "https://github.com/An-Ji-hyun",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/SeoaLee.jpg",
+		"name" : "이서아(Seoa Lee)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI",
+		"mail" : "seoasap907@ewha.ac.kr",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/JiminJung.jpg",
+		"name" : "정지민(Jimin Jung)",
+		"position" : "M.S Student",
+		"interest" : "HCI, Mental Health, Healthcare, AI",
+		"mail" : "js100164@ewha.ac.kr",
+		"homepage" : "https://js100164.tistory.com",
+		"git" : null,
+		"linkdIn" : null
 	}
 ]
 
@@ -210,7 +250,7 @@ var underStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/under/HayeonDoh.jpg",
+		"pic" : "../img/member/under/HayeonDoh.jpeg",
 		"name" : "도하연(Hayeon Doh)",
 		"position" : "Undergraduate Intern",
 		"interest" : "HCI , UI/UX , Educational Technology, Information Visualization",
@@ -238,6 +278,16 @@ var underStu = [
 		"homepage" : "https://minyoungjoo.github.io/",
 		"git" : "https://github.com/MinyoungJoo",
 		"linkdIn" : "https://www.linkedin.com/in/minyoung-joo-642212246/"
+	},
+	{
+		"pic" : "../img/member/under/YounseoChoi.JPG",
+		"name" : "최윤서(Younseo Choi)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI",
+		"mail" : "imyure@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : "https://www.linkedin.com/in/yunyun827/"
 	}
 ]
 
@@ -344,6 +394,16 @@ var alumni = [
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Jiseon.jpg",
+		"name" : "양지선(Jiseon Yang)",
+		"position" : "M.S Student",
+		"interest" : "HAI, Data Science, LLM",
+		"mail" : "jssyang@ewha.ac.kr",
+		"homepage" : "https://sun-garret.tistory.com/",
+		"git" : "https://github.com/Sunnnyyy16",
+		"linkdIn" : "https://www.linkedin.com/in/jiseony"
 	}
 ]
 
