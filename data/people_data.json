@@ -197,14 +197,24 @@ var msStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/ms/Yeonu.jpg",
-		"name" : "도연우(Yeonu Do)",
+		"pic" : "../img/member/ms/JisuKim.png",
+		"name" : "김지수(Jisu Kim)",
 		"position" : "M.S Student",
-		"interest" : "HCI, AI",
-		"mail" : "yeonu_do@ewha.ac.kr",
+		"interest" : "HCI, Accessibility, XR",
+		"mail" : "rlawltn0214@ewha.ac.kr",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : "https://www.linkedin.com/in/yeonu-do"
+	},
+	{
+		"pic" : "../img/member/ms/YoungChang.jpeg",
+		"name" : "장영(Young Chang)",
+		"position" : "M.S Student",
+		"interest" : "Human-Robot Interaction , Child-AI Interaction, Behavior change, Accessibility",
+		"mail" : "youngchang1005@ewha.ac.kr",
+		"homepage" : "https://mywebsite.youngchang1005.workers.dev/",
+		"git" : "https://github.com/paintedblue",
+		"linkdIn" : "https://www.linkedin.com/in/young-chang-a495a1269/"
 	},
 	{
 		"pic" : "../img/member/ms/JihyunAn.png",
@@ -235,20 +245,20 @@ var msStu = [
 		"homepage" : "https://js100164.tistory.com",
 		"git" : null,
 		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/JieunKim.jpg",
+		"name" : "김지은(Jieun Kim)",
+		"position" : "M.S Student",
+		"interest" : "Human-AI Interaction",
+		"mail" : "jinnykim829@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
 	}
 ]
 
 var underStu = [
-	{
-		"pic" : "../img/member/under/JisuKim.png",
-		"name" : "김지수(Jisu Kim)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, Accessibility, Edutainment",
-		"mail" : "rlawltn0214@ewhain.net",
-		"homepage" : "https://codename-1104.tistory.com/",
-		"git" : "https://github.com/Jisu-1104",
-		"linkdIn" : null
-	},
 	{
 		"pic" : "../img/member/under/HayeonDoh.jpeg",
 		"name" : "도하연(Hayeon Doh)",
@@ -256,8 +266,8 @@ var underStu = [
 		"interest" : "HCI , UI/UX , Educational Technology, Information Visualization",
 		"mail" : "hayeonlr@gmail.com",
 		"homepage" : null,
-		"git" : "https://github.com/doh-ha",
-		"linkdIn" : null
+		"git" : null,
+		"linkdIn" : "www.linkedin.com/in/jisukim1104"
 	},
 	{
 		"pic" : "../img/member/under/JulieRyuOh.jpg",
