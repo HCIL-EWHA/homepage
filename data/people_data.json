@@ -216,6 +216,16 @@ var msStu = [
 		"git" : "https://github.com/paintedblue",
 		"linkdIn" : "https://www.linkedin.com/in/young-chang-a495a1269/"
 	},
+    {
+        "pic" : "../img/member/ms/Yeonu.jpg",
+        "name" : "도연우(Yeonu Do)",
+        "position" : "M.S Student",
+        "interest" : "HCI, AI",
+        "mail" : "yeonu_do@ewha.ac.kr",
+        "homepage" : null,
+        "git" : null,
+        "linkdIn" : "https://www.linkedin.com/in/yeonu-do"
+    },
 	{
 		"pic" : "../img/member/ms/JihyunAn.png",
 		"name" : "안지현(Jihyun An)",
@@ -266,8 +276,8 @@ var underStu = [
 		"interest" : "HCI , UI/UX , Educational Technology, Information Visualization",
 		"mail" : "hayeonlr@gmail.com",
 		"homepage" : null,
-		"git" : null,
-		"linkdIn" : "www.linkedin.com/in/jisukim1104"
+		"git" : "https://github.com/doh-ha",
+		"linkdIn" : null
 	},
 	{
 		"pic" : "../img/member/under/JulieRyuOh.jpg",
