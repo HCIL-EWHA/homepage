@@ -91,7 +91,6 @@ article.artUnderLine {
 article.artUnderLine > div.container {
   border-bottom: solid #cfcfcf;
 }
-
 .dropdown-menu {
   max-height: 300px;
   overflow-y: auto;
