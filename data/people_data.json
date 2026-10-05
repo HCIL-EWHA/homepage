@@ -79,7 +79,7 @@ var msStu = [
 	{
 		"pic" : "../img/member/ms/HaejinPark.JPEG",
 		"name" : "박혜진(Haejin Park)",
-		"position" : "M.S StudenmsStut",
+		"position" : "M.S Student",
 		"interest" : "HCI, BCI",
 		"mail" : "hyejin9313@ewhain.net",
 		"homepage" : null,
@@ -124,7 +124,7 @@ var msStu = [
 		"mail" : "rlawltn0214@ewha.ac.kr",
 		"homepage" : null,
 		"git" : null,
-		"linkdIn" : "https://www.linkedin.com/in/yeonu-do"
+		"linkdIn" : "www.linkedin.com/in/jisukim1104"
 	},
 	{
 		"pic" : "../img/member/ms/YoungChang.jpeg",
@@ -364,7 +364,8 @@ var alumni = [
 		"homepage" : "https://sun-garret.tistory.com/",
 		"git" : "https://github.com/Sunnnyyy16",
 		"linkdIn" : "https://www.linkedin.com/in/jiseony"
-	}{
+	},
+	{
 		"pic" : "../img/member/ms/Kyungok.jpeg",
 		"name" : "김경옥(Kyungok Kim)",
 		"position" : "M.S Student",
@@ -592,7 +593,7 @@ var Internalumni = [
 		"name" : "안건희(Geonhee Ahn)",
 		"position" : "Undergraduate Intern",
 		"interest" : "HCL",
-		"mail" : "justamoment@ewahin.net",
+		"mail" : "justamoment@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/GeonHeeAhn",
 		"linkdIn" : null
@@ -621,7 +622,7 @@ var Internalumni = [
 		"pic" : "../img/member/ms/Sohyeon.jpg",
 		"name" : "박소현(Sohyeon Park)",
 		"position" : "M.S Student",
-		"interest" : "HCI, Human-Centered Computing, Accessibiliy, Extended Reality",
+		"interest" : "HCI, Human-Centered Computing, Accessibility, Extended Reality",
 		"mail" : "cookiedough0911@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/codecodechanel",
