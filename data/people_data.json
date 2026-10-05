@@ -2,7 +2,7 @@ var prof = [
 	{
 		"pic" : "../img/member/prof/Prof_Uran.jpg",
 		"name" : "오유란(Uran Oh)",
-		"position" : "Assistant Professor",
+		"position" : "Associate Professor",
 		"interest" : "improving information access by redesigning state-of-art technologies",
 		"mail" : "uran.oh@ewha.ac.kr",
 		"homepage" : "http://www.uranoh.com/",
@@ -77,76 +77,6 @@ var msStu = [
 		"linkdIn" : null
 	},
 	{
-		"pic" : "../img/member/ms/Kyungok.jpeg",
-		"name" : "김경옥(Kyungok Kim)",
-		"position" : "M.S Student",
-		"interest" : "HCI, AI, Accessibility, Safety",
-		"mail" : "232aig03@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/EunbinCho.jpg",
-		"name" : "조은빈(Eunbin Cho)",
-		"position" : "M.S/Ph.D Student",
-		"interest" : "HCI",
-		"mail" : "echo45@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/Jinyoung.jpg",
-		"name" : "허진영(Jinyoung Huh)",
-		"position" : "M.S Student",
-		"interest" : "HCI, Accessibility, UI/UX",
-		"mail" : "hjy0505@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/Misu.png",
-		"name" : "정미수(Misu Jung)",
-		"position" : "M.S Student",
-		"interest" : "AI , HCI, UI/UX",
-		"mail" : "daum091409@naver.com",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/Eunseo.jpg",
-		"name" : "양은서(Eunseo Yang)",
-		"position" : "M.S Student",
-		"interest" : "Conversational Agent, Adaptive User Interaction, Emotion-aware AI systems, Multimodal Situation Awareness",
-		"mail" : "eunseo1092@ewhain.net",
-		"homepage" : null,
-		"git" : "https://github.com/eunseo-yang",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/SeminLee.jpeg",
-		"name" : "이세민(Semin Lee)",
-		"position" : "M.S Student",
-		"interest" : "HCI, AI",
-		"mail" : "dltpals16@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/SooinMoon.jpg",
-		"name" : "문수인(Sooin Moon)",
-		"position" : "M.S Student",
-		"interest" : "HCI, Assistive AI, Affective computing, Mental health, Multimodal AI",
-		"mail" : "mmddui@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
 		"pic" : "../img/member/ms/HaejinPark.JPEG",
 		"name" : "박혜진(Haejin Park)",
 		"position" : "M.S StudenmsStut",
@@ -154,16 +84,6 @@ var msStu = [
 		"mail" : "hyejin9313@ewhain.net",
 		"homepage" : null,
 		"git" : "https://github.com/hyp00",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/ms/Yoonjae.jpg",
-		"name" : "오윤재(Yoonjae Oh)",
-		"position" : "M.S Student",
-		"interest" : "HCI, UX/UI, AI, Blockchain",
-		"mail" : "angelaoh4686@gmail.com",
-		"homepage" : null,
-		"git" : null,
 		"linkdIn" : null
 	},
 	{
@@ -270,36 +190,6 @@ var msStu = [
 
 var underStu = [
 	{
-		"pic" : "../img/member/under/HayeonDoh.jpeg",
-		"name" : "도하연(Hayeon Doh)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI , UI/UX , Educational Technology, Information Visualization",
-		"mail" : "hayeonlr@gmail.com",
-		"homepage" : null,
-		"git" : "https://github.com/doh-ha",
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/JulieRyuOh.jpg",
-		"name" : "오지흔(Jeeheun Oh)",
-		"position" : "Undergraduate Intern",
-		"interest" : "HCI, accessibility",
-		"mail" : "sallyjoyoh@ewhain.net",
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : "../img/member/under/Minyoung.jpg",
-		"name" : "주민영(Minyoung Joo)",
-		"position" : "Undergraduate Intern",
-		"interest" : "LLM, Conversational AI, Multimodal, AI-powered learning systems, digital healthcare",
-		"mail" : "lilybell77@ewhain.net",
-		"homepage" : "https://minyoungjoo.github.io/",
-		"git" : "https://github.com/MinyoungJoo",
-		"linkdIn" : "https://www.linkedin.com/in/minyoung-joo-642212246/"
-	},
-	{
 		"pic" : "../img/member/under/YounseoChoi.JPG",
 		"name" : "최윤서(Younseo Choi)",
 		"position" : "Undergraduate Intern",
@@ -308,6 +198,56 @@ var underStu = [
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : "https://www.linkedin.com/in/yunyun827/"
+	},
+	{
+		"pic" : "../img/member/ms/Yoonjae.jpg",
+		"name" : "오윤재(Yoonjae Oh)",
+		"position" : "M.S Student",
+		"interest" : "HCI, UX/UI, AI, Blockchain",
+		"mail" : "angelaoh4686@gmail.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : null,
+		"name" : "김성현",
+		"position" : null,
+		"interest" : null,
+		"mail" : null,
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : null,
+		"name" : "이예림",
+		"position" : null,
+		"interest" : null,
+		"mail" : null,
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : null,
+		"name" : "임채은",
+		"position" : null,
+		"interest" : null,
+		"mail" : null,
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : null,
+		"name" : "허다연",
+		"position" : null,
+		"interest" : null,
+		"mail" : null,
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
 	}
 ]
 
@@ -424,6 +364,75 @@ var alumni = [
 		"homepage" : "https://sun-garret.tistory.com/",
 		"git" : "https://github.com/Sunnnyyy16",
 		"linkdIn" : "https://www.linkedin.com/in/jiseony"
+	}{
+		"pic" : "../img/member/ms/Kyungok.jpeg",
+		"name" : "김경옥(Kyungok Kim)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI, Accessibility, Safety",
+		"mail" : "232aig03@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/EunbinCho.jpg",
+		"name" : "조은빈(Eunbin Cho)",
+		"position" : "M.S/Ph.D Student",
+		"interest" : "HCI",
+		"mail" : "echo45@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Jinyoung.jpg",
+		"name" : "허진영(Jinyoung Huh)",
+		"position" : "M.S Student",
+		"interest" : "HCI, Accessibility, UI/UX",
+		"mail" : "hjy0505@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Misu.png",
+		"name" : "정미수(Misu Jung)",
+		"position" : "M.S Student",
+		"interest" : "AI , HCI, UI/UX",
+		"mail" : "daum091409@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/Eunseo.jpg",
+		"name" : "양은서(Eunseo Yang)",
+		"position" : "M.S Student",
+		"interest" : "Conversational Agent, Adaptive User Interaction, Emotion-aware AI systems, Multimodal Situation Awareness",
+		"mail" : "eunseo1092@ewhain.net",
+		"homepage" : null,
+		"git" : "https://github.com/eunseo-yang",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/SeminLee.jpeg",
+		"name" : "이세민(Semin Lee)",
+		"position" : "M.S Student",
+		"interest" : "HCI, AI",
+		"mail" : "dltpals16@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/ms/SooinMoon.jpg",
+		"name" : "문수인(Sooin Moon)",
+		"position" : "M.S Student",
+		"interest" : "HCI, Assistive AI, Affective computing, Mental health, Multimodal AI",
+		"mail" : "mmddui@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
 	}
 ]
 
@@ -674,6 +683,56 @@ var Internalumni = [
 		"position" : "Undergraduate Intern",
 		"interest" : "NLP, Speech recognition & transcription, HCI",
 		"mail" : "julieryu2@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/HayeonDoh.jpeg",
+		"name" : "도하연(Hayeon Doh)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI , UI/UX , Educational Technology, Information Visualization",
+		"mail" : "hayeonlr@gmail.com",
+		"homepage" : null,
+		"git" : "https://github.com/doh-ha",
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/JulieRyuOh.jpg",
+		"name" : "오지흔(Jeeheun Oh)",
+		"position" : "Undergraduate Intern",
+		"interest" : "HCI, accessibility",
+		"mail" : "sallyjoyoh@ewhain.net",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : "../img/member/under/Minyoung.jpg",
+		"name" : "주민영(Minyoung Joo)",
+		"position" : "Undergraduate Intern",
+		"interest" : "LLM, Conversational AI, Multimodal, AI-powered learning systems, digital healthcare",
+		"mail" : "lilybell77@ewhain.net",
+		"homepage" : "https://minyoungjoo.github.io/",
+		"git" : "https://github.com/MinyoungJoo",
+		"linkdIn" : "https://www.linkedin.com/in/minyoung-joo-642212246/"
+	},
+	{
+		"pic" : null,
+		"name" : "옥진주",
+		"position" : "Undergraduate Intern",
+		"interest" : null,
+		"mail" : "pearlisrich@naver.com",
+		"homepage" : null,
+		"git" : null,
+		"linkdIn" : null
+	},
+	{
+		"pic" : null,
+		"name" : "이다현",
+		"position" : "Undergraduate Intern",
+		"interest" : null,
+		"mail" : "199805@ewhain.net",
 		"homepage" : null,
 		"git" : null,
 		"linkdIn" : null
