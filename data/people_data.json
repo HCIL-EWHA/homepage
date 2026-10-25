@@ -201,26 +201,6 @@ var msStu = [
 var underStu = [
 	{
 		"pic" : null,
-		"name" : "옥진주",
-		"position" : null,
-		"interest" : null,
-		"mail" : null,
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : null,
-		"name" : "이다현",
-		"position" : null,
-		"interest" : null,
-		"mail" : null,
-		"homepage" : null,
-		"git" : null,
-		"linkdIn" : null
-	},
-	{
-		"pic" : null,
 		"name" : "김성현",
 		"position" : null,
 		"interest" : null,
